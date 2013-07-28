@@ -1,7 +1,10 @@
 <?php
 	$file = fopen("nyc/Farmers_Markets_in_New_York_State.csv", "r");
-	while(($contents = fgetcsv($file)) != FALSE) {
-		echo $contents[0] . " | " . $contents[1] . "\n";
+	$f = fopen("index.html", "a");
+	
+	while (($contents = fgetcsv($file)) != FALSE) {
+		//echo $contents[0] . " | " . $contents[1] . "\n";
+		fwrite($f, $contents[0] . "\n");
 	}
 	
 	/*
@@ -14,6 +17,7 @@
 		Latitude [13]
 		Longitude [14]
 	*/
-	
+
+	fclose($f);
 	fclose($file);
 ?>
