@@ -3,8 +3,14 @@
 	$f = fopen("index.html", "a");
 	
 	while (($contents = fgetcsv($file)) != FALSE) {
-		//echo $contents[0] . " | " . $contents[1] . "\n";
-		fwrite($f, $contents[0] . "\n");
+		fwrite($f, "<tr><td>" . $contents[0] . "</td>");
+		fwrite($f, "<td>" . $contents[1] . "</td>");
+		fwrite($f, "<td>" . $contents[3] . "</td>");
+		fwrite($f, "<td>" . $contents[4] . "</td>");
+		fwrite($f, "<td>" . $contents[5] . "</td>");
+		fwrite($f, "<td>" . $contents[6] . "</td>");
+		fwrite($f, "<td>" . $contents[13] . "</td>");
+		fwrite($f, "<td>" . $contents[14] . "</td></tr>\n");
 	}
 	
 	/*
