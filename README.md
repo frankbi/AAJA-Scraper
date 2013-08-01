@@ -9,6 +9,7 @@ Thursday, August 22
 Session description
 -----------
 
-Before data is stored in an Excel spreadsheet, it resides as HTML text on a website. Learn how to write a script to scrape data from a website and into a spreadsheet without copying + pasting.
+Write Python a script to scrape [farmers' market data](http://frankbi.com/aaja/farmermarkets/page1.html) from a website and into a spreadsheet.
 
-A hands-on workshop, attendees will first be introduced to basic scraper code before learning how to create a simple web scraper on scraperwiki.com from two computer science/journalism students who have used scrapers for both professional and personal projects.
+
+A hands-on workshop, attendees will learn how to create a simple web scraper on [scraperwiki.com](scraperwiki.com) from two computer science/journalism students who have used scrapers for both professional and personal projects.
