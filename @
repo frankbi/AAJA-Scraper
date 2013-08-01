@@ -1,0 +1,476 @@
+'County','Market Name'.'Address Line 1'.'City'.'State'.'Zip'.'Latitude'.'Longitude'.
+'Albany','Albany Jewish Community Ctr Farmers' Market'.'340 Whitehall Rd'.'Albany'.'NY'.'12208'.'42.64815'.'-73.8077'.
+'Albany','Altamont Farmers' Market'.'181 Main Street'.'Altamont'.'NY'.'12009'.'42.70149'.'-74.03256'.
+'Albany','Capital District Farmers' Market in Menands'.'381 Broadway'.'Menands'.'NY'.'12204'.'42.69621'.'-73.72001'.
+'Albany','CDPHP Farmers' Market'.'500 Patroon Creek Bvld.'.'Albany'.'NY'.'12206'.'42.68485'.'-73.80513'.
+'Albany','Cohoes Farmers' Market'.'185 Remsen St'.'Cohoes'.'NY'.'12047'.'42.77161'.'-73.70068'.
+'Albany','Colonie Farmers' Market'.'580 Albany Shaker Rd'.'Colonie'.'NY'.'12211'.'42.71016'.'-73.78029'.
+'Albany','Delaware Area Neighborhood Farmers' Market'.'331 Delaware Ave'.'Albany'.'NY'.'12209'.'42.64305'.'-73.77824'.
+'Albany','Delmar Farmers' Market'.'428 Kenwood Ave'.'Delmar'.'NY'.'12054'.'42.62265'.'-73.83631'.
+'Albany','Downtown Albany Farmers' Market'.'Broadway and Pine St.'.'Albany'.'NY'.'12207'.'42.65026'.'-73.75045'.
+'Albany','Empire State Plaza Farmers' Market'.'156 State St'.'Albany'.'NY'.'12210'.'42.65093'.'-73.75709'.
+'Albany','Glenmont/ Mt Moriah Church Farmer's Market'.'262 Rt. 9W'.'Glenmont'.'NY'.'12077'.'42.61076'.'-73.7864'.
+'Albany','Harriman State Campus Farmers' Market'.'1220 Washington Ave'.'Albany'.'NY'.'12203'.'42.68035'.'-73.81041'.
+'Albany','Hilltown Community Farmers' Market'.'1652 Helderberg Trail'.'Berne'.'NY'.'12023'.'42.62506'.'-74.13506'.
+'Albany','Voorheesville Farmers' Market'.'68 Maple Ave'.'Voorheesville'.'NY'.'12186'.'42.64892'.'-73.92991'.
+'Allegany','Alfred Farmers' Market'.'Main Street and Saxon Drive'.'Alfred'.'NY'.'14802'.'42.25396'.'-77.7904'.
+'Allegany','Angelica Farmers' Market'.'28 Park Cir'.'Angelica'.'NY'.'14709'.'42.30553'.'-78.01631'.
+'Allegany','Belmont Farmers' Market'.'32 Willets Ave'.'Belmont'.'NY'.'14813'.'42.22604'.'-78.03977'.
+'Allegany','Harvest Partners Bolivar Farmers' Market'.'Bolivar Fire Hall'.'Bolivar'.'NY'.'14715'.'42.06395'.'-78.16803'.
+'Allegany','Harvest Partners Cuba Farmers' Market'.'51 E Main St'.'Cuba'.'NY'.'14727'.'42.21829'.'-78.27295'.
+'Allegany','Harvest Partners Fillmore Farmers' Market'.'20 South Genesee St'.'Fillmore'.'NY'.'14735'.'42.46485'.'-78.11229'.
+'Allegany','Wellsville Farmers' Market'.'191 North Main St'.'Wellsville'.'NY'.'14895'.'42.12242'.'-77.95056'.
+'Bronx','Bissel Gardens Farmers' Market'.'Baychester Ave and East 241st St'.'Bronx'.'NY'.'10470'.'40.90154'.'-73.8469'.
+'Bronx','Bronx Borough Hall Greenmarket'.'901 Grand Concourse'.'Bronx'.'NY'.'10452'.'40.82715'.'-73.92278'.
+'Bronx','Harvest Home Bronx Terminal Farmers' Market'.'151st Street and River Avenue'.'Bronx'.'NY'.'10456'.'40.82284'.'-73.92875'.
+'Bronx','Harvest Home Co-op City Farmers' Market'.'Co-Op City Blvd and Bellamy Loop'.'Bronx'.'NY'.'10475'.'40.87225'.'-73.8244'.
+'Bronx','Harvest Home Echo Park Farmers' Market'.'East Burnside Ave and Ryer Ave'.'Bronx'.'NY'.'10457'.'40.85085'.'-73.90148'.
+'Bronx','Harvest Home Forest Ave. Farmers' Market'.'East 156st St and Forest Ave'.'Bronx'.'NY'.'10455'.'40.81815'.'-73.90624'.
+'Bronx','Harvest Home Jacobi  Hospital Farmers' Market'.'1400 Pelham Pkwy'.'Bronx'.'NY'.'10461'.'40.85407'.'-73.8469'.
+'Bronx','Harvest Home Jerome Ave. Farmers' Market'.'Jerome Ave and East 170th St'.'Bronx'.'NY'.'10452'.'40.84024'.'-73.91763'.
+'Bronx','Harvest Home Mt. Eden Farmers' Market'.'Mt Eden Pkwy and Morris Ave'.'Bronx'.'NY'.'10457'.'40.84306'.'-73.90955'.
+'Bronx','Harvest Home North Central Bronx Farmers' Market'.'Jerome Ave and East Mosholu Pkwy North'.'Bronx'.'NY'.'10467'.'40.88038'.'-73.88378'.
+'Bronx','Harvest Home Sunday Farmers' Market'.'Grand Concourse and East 165st St'.'Bronx'.'NY'.'10456'.'40.83086'.'-73.92033'.
+'Bronx','Hunts Point Farmers' Market'.'Southern Blvd and East 163rd St'.'Bronx'.'NY'.'10459'.'40.82099'.'-73.89167'.
+'Bronx','Kingsbridge Heights Farmers Market'.'3101 Kingsbridge Terrace'.'Bronx'.'NY'.'10463'.'40.87758'.'-73.90072'.
+'Bronx','La Familia Verde Farmers' Market'.'East Tremont Ave and Arthur Ave'.'Bronx'.'NY'.'10457'.'40.8464'.'-73.89337'.
+'Bronx','Learn it, Grow it, Eat it Youthmarket'.'Boston Rd and East 169th St'.'Bronx'.'NY'.'10456'.'40.83117'.'-73.90032'.
+'Bronx','Lincoln Hospital Greenmarket'.'East 149th St and Morris Ave'.'Bronx'.'NY'.'10451'.'40.81739'.'-73.92276'.
+'Bronx','Marble Hill Youthmarket'.'Broadway and West 225th St'.'Bronx'.'NY'.'10463'.'40.87424'.'-73.91036'.
+'Bronx','Mott Haven Farmers' Market'.'283 Saint Anns Ave'.'Bronx'.'NY'.'10454'.'40.80789'.'-73.91709'.
+'Bronx','New York Botanical Garden Greenmarket'.'Dr Theodore Kazimiroff Blvd and Mosholu Pkwy'.'Bronx'.'NY'.'10458'.'40.86771'.'-73.8796'.
+'Bronx','Northeast Bronx Farmers' Market'.'Hammersley Ave and Wickham Ave'.'Bronx'.'NY'.'10469'.'40.87268'.'-73.83912'.
+'Bronx','Parkchester/ Virginia Park Greenmarket'.'Westchester Ave and White Plains Rd'.'Bronx'.'NY'.'10472'.'40.83283'.'-73.8627'.
+'Bronx','Poe Park Greenmarket'.'Grand Concourse and East 192nd St'.'Bronx'.'NY'.'10458'.'40.86417'.'-73.8956'.
+'Bronx','Project EATS Hegney Place Farmers' Market'.'Rae Street'.'Bronx'.'NY'.'10455'.'40.81752'.'-73.91232'.
+'Bronx','Riverdale Neighborhood House Youthmarket'.'5521 West 226th St'.'Bronx'.'NY'.'10466'.'40.90388'.'-73.90313'.
+'Bronx','Riverdale Y Sunday Farmers' Market'.'Independence Ave and W 237 Street'.'Bronx'.'NY'.'10463'.'40.88836'.'-73.91311'.
+'Bronx','Roberto Clemente Plaza Youthmarket'.'3rd Ave and 148th Street'.'Bronx'.'NY'.'10455'.'40.81553'.'-73.91858'.
+'Bronx','Taqwa Community Farmers' Market'.'90 West 164th St'.'Bronx'.'NY'.'10452'.'40.83251'.'-73.92886'.
+'Bronx','The Heights Community Farmers' Market'.'University Ave and W 181st Street'.'Bronx'.'NY'.'10453'.'40.8572'.'-73.90974'.
+'Bronx','Wholesale Greenmarket'.'800 Food Center Dr'.'Bronx'.'NY'.'10474'.'40.80234'.'-73.87367'.
+'Broome','Binghamton/Otsiningo Park Farmers' Market'.'Bevier St and Otsiningo Park,'.'Binghamton'.'NY'.'13905'.'42.11984'.'-75.90493'.
+'Broome','Downtown Binghamton Farmers' Market'.'Collier St and Court St'.'Binghamton'.'NY'.'13901'.'42.09867'.'-75.91159'.
+'Broome','Koo Koose Farmers' Market'.'147 NYS Bicycle Route 17'.'Deposit'.'NY'.'13754'.'42.06078'.'-75.42563'.
+'Broome','Vestal Farmers' Market'.'320 Vestal Pkwy'.'Vestal'.'NY'.'13850'.'42.08533'.'-76.05903'.
+'Cattaraugus','Franklinville Farmers' Market'.'13 Park Sq'.'Franklinville'.'NY'.'14737'.'42.33718'.'-78.45726'.
+'Cattaraugus','Olean Southern Tier Farmers' Market'.'1900 Constitution Ave'.'Olean'.'NY'.'14760'.'42.08294'.'-78.45503'.
+'Cattaraugus','R.E.A.P. Ellicotville Farmers' Market'.'53 Elizabeth Street'.'Ellicottville'.'NY'.'14731'.'42.27628'.'-78.67365'.
+'Cattaraugus','R.E.A.P. Olean Farmers' Market'.'Union St and Sullivan St'.'Olean'.'NY'.'14760'.'42.08149'.'-78.4299'.
+'Cattaraugus','Salamanca Farmers' Market'.'12 Park Ave'.'Salamanca'.'NY'.'14779'.'42.15496'.'-78.71739'.
+'Cayuga','Auburn Farmers' Market'.'96 State Street'.'Auburn'.'NY'.'13021'.'42.93403'.'-76.57004'.
+'Cayuga','Moravia Farmers' Market'.'130 Main St'.'Moravia'.'NY'.'13118'.'42.71209'.'-76.42079'.
+'Cayuga','Niles Farmers' Market'.'5923 New Hope Rd.'.'Moravia'.'NY'.'13118'.'42.79746'.'-76.36609'.
+'Cayuga','Union Springs Farmers' Market'.'Chapel Street and Route 90'.'Union Springs'.'NY'.'13160'.'42.84224'.'-76.69195'.
+'Chautauqua','Downtown Jamestown Farmers' Market'.'119 West 3rd St'.'Jamestown'.'NY'.'14701'.'42.09605'.'-79.24317'.
+'Chautauqua','Falconer Farmers' Market'.'W Main St and Homestead St'.'Falconer'.'NY'.'14733'.'42.11763'.'-79.19952'.
+'Chautauqua','Fredonia Farmers' Market'.'11 Church St'.'Fredonia'.'NY'.'14063'.'42.44054'.'-79.33234'.
+'Chautauqua','Lakewood Farmers' Market'.'Chautauqua Ave and West Second St'.'Lakewood'.'NY'.'14750'.'42.10184'.'-79.32623'.
+'Chautauqua','Westfield Farmers' Market'.'Main St and Portage St'.'Westfield'.'NY'.'14787'.'42.32195'.'-79.57808'.
+'Chemung','Elmira Eastside Farmers' Market'.'760 East Water St'.'Elmira'.'NY'.'14901'.'42.08905'.'-76.7922'.
+'Chemung','Elmira Grove Park Farmers' Market'.'Walnut Ave and West 4th St'.'Elmira'.'NY'.'14901'.'42.0921'.'-76.82013'.
+'Chemung','Elmira Wisner Park Farmers' Market'.'North Main St and West Church St'.'Elmira'.'NY'.'14901'.'42.08984'.'-76.80826'.
+'Chemung','Horseheads/Teal Park Farmers' Market'.'502 South Main St'.'Horseheads'.'NY'.'14845'.'42.16431'.'-76.81942'.
+'Chenango','Chenango County Farmers' Market'.'East Main St and East Park Pl'.'Norwich'.'NY'.'13815'.'42.53132'.'-75.5226'.
+'Chenango','Coventry Farmers' Market'.'North Rd and Volunteer Ln'.'Coventry'.'NY'.'13778'.'42.31667'.'-75.63847'.
+'Chenango','Norwich Farmers' Market'.'98 East Park Place'.'Norwich'.'NY'.'13815'.'42.53136'.'-75.52262'.
+'Clinton','Chateaugay Lake Farmers' Market'.'4939 State Route 374'.'Merrill'.'NY'.'12955'.'44.78076'.'-73.98243'.
+'Clinton','Keeseville Farmers Market'.'1721 Front St'.'Keeseville'.'NY'.'12944'.'44.50436'.'-73.48061'.
+'Clinton','Plattsburgh Farmers' & Crafters Market'.'Broad St and Durkee St'.'Plattsburgh'.'NY'.'12901'.'44.69535'.'-73.45226'.
+'Columbia','Copake Farmers' Market'.'Church St. and Pioneer Dr.'.'Copake'.'NY'.'12516'.'42.1034'.'-73.54957'.
+'Columbia','Hillsdale Farmers' Market'.'9140 Route 22'.'Hillsdale'.'NY'.'12529'.'42.16548'.'-73.51686'.
+'Columbia','Hudson Farmers' Market'.'Columbia St and North 6th St'.'Hudson'.'NY'.'12534'.'42.24866'.'-73.78369'.
+'Columbia','Kinderhook Farmers' Market'.'US Route 9 and Hudson St'.'Kinderhook'.'NY'.'12106'.'42.39539'.'-73.69819'.
+'Columbia','Lebanon Valley Farmers' Market'.'501 Route 20'.'New Lebanon'.'NY'.'12125'.'42.46658'.'-73.39243'.
+'Columbia','Philmont Farmers' Market'.'Main St and Elm St'.'Philmont'.'NY'.'12565'.'42.24868'.'-73.65097'.
+'Cortland','Cincinnatus Farmers' Market'.'2704 Lower Cincinnatus Rd'.'Cincinnatus'.'NY'.'13040'.'42.54094'.'-75.8959'.
+'Cortland','City of Cortland Farmers' Market'.'Main St and Orchard St'.'Cortland'.'NY'.'13045'.'42.60028'.'-76.18044'.
+'Cortland','Homer Farmers' Market'.'South Main St and Central Park Pl'.'Homer'.'NY'.'13077'.'42.63596'.'-76.17862'.
+'Cortland','Virgil Farmers' Market'.'1208 Church Street'.'Virgil'.'NY'.'13045'.'42.50891'.'-76.19595'.
+'Delaware','Delhi Farmers' Market'.'Main St and Court St'.'Delphi'.'NY'.'13753'.'42.27745'.'-74.91674'.
+'Delaware','Deposit Farmers' Market'.'107 Second St'.'Deposit'.'NY'.'13754'.'42.06233'.'-75.4249'.
+'Delaware','Hobart Community Farmers' Market'.'Maple Ave and Railroad Ave'.'Stamford'.'NY'.'13788'.'42.37016'.'-74.66867'.
+'Delaware','Pakatakan Farmers' Market'.'46676 State Route 30'.'Margaretville'.'NY'.'12455'.'42.19991'.'-74.59656'.
+'Delaware','Sidney Farmers' Market'.'89 Main St'.'Sidney'.'NY'.'13838'.'42.31426'.'-75.39045'.
+'Delaware','Walton Farmers' Market'.'2 Titus Place'.'Walton'.'NY'.'13856'.'42.16464'.'-75.12792'.
+'Dutchess','Arlington Farmers' Market'.'123 Raymond Ave'.'Poughkeepsie'.'NY'.'12603'.'41.68187'.'-73.89636'.
+'Dutchess','Hyde Park Farmers' Market'.'4383 Route 9'.'Hyde Park'.'NY'.'12538'.'41.79069'.'-73.93645'.
+'Dutchess','Millerton Farmers' Market'.'2 Main Street'.'Millerton'.'NY'.'12546'.'41.95258'.'-73.51208'.
+'Dutchess','Rhinebeck Farmers' Market'.'61 East Market St'.'Rhinebeck'.'NY'.'12572'.'41.92738'.'-73.91021'.
+'Erie','Alden Farmers' Market'.'13119 Broadway'.'Alden'.'NY'.'14004'.'42.89828'.'-78.501'.
+'Erie','Blasdell Farmers' Market'.'3785 South Park Avenue'.'Hamburg'.'NY'.'14219'.'42.79501'.'-78.82403'.
+'Erie','Buffalo/Clinton Bailey Farmers' Market'.'Bailey Ave and Clinton St'.'Buffalo'.'NY'.'14206'.'42.87204'.'-78.81997'.
+'Erie','Clarence Hollow Farmers' Market'.'10717 Main St'.'Clarence'.'NY'.'14031'.'42.98082'.'-78.58903'.
+'Erie','Downtown Buffalo Country Market'.'Main St and East Eagle St'.'Buffalo'.'NY'.'14202'.'42.88429'.'-78.87484'.
+'Erie','East Aurora Farmers' Market'.'123 Grey St'.'East Aurora'.'NY'.'14052'.'42.76593'.'-78.63413'.
+'Erie','Elmwood-Bidwell Farmers' Market'.'Elmwood Ave and Bidwell Pkwy'.'Buffalo'.'NY'.'14222'.'42.92371'.'-78.87702'.
+'Erie','Fox Run at Orchard Park Farmers' Market'.'1 Fox Run Ln'.'Orchard Park'.'NY'.'14127'.'42.76302'.'-78.77294'.
+'Erie','Hamburg Farmers' Market'.'30 Buffalo St'.'Hamburg'.'NY'.'14075'.'42.71677'.'-78.82994'.
+'Erie','Holland Farmers' Market'.'49 North Main St'.'Holland'.'NY'.'14080'.'42.64204'.'-78.543'.
+'Erie','Kenmore Farmers' Market'.'2919 Delaware Ave'.'Buffalo'.'NY'.'14217'.'42.96362'.'-78.8698'.
+'Erie','Springville/Gentner Farmers' Market'.'341 West Main St'.'Springville'.'NY'.'14141'.'42.50906'.'-78.67989'.
+'Erie','Williamsville Mill Farmers' Market'.'56 East Spring St'.'Williamsville'.'NY'.'14221'.'42.96367'.'-78.7446'.
+'Essex','Elizabethtown Farmers' Market'.'7590 Court St'.'Elizabethtown'.'NY'.'12932'.'44.21505'.'-73.59094'.
+'Essex','Keene Farmers' Market'.'2253 State Route 73'.'Keene Valley'.'NY'.'12943'.'44.22067'.'-73.78561'.
+'Essex','Lake Placid Farmers' Market'.'17 Algonquin Dr'.'Lake Placid'.'NY'.'12946'.'44.29367'.'-73.99766'.
+'Essex','Port Henry Farmers' Market'.'4264 Main St'.'Port Henry'.'NY'.'12974'.'44.0445'.'-73.45837'.
+'Essex','Schroon Lake Farmers' Market'.'Leland Ave and Broad St'.'Scroon Lake'.'NY'.'12870'.'43.83665'.'-73.76049'.
+'Essex','Ticonderoga Farmers' Market'.'State Route 9N and Hague Rd'.'Ticonderoga'.'NY'.'12883'.'43.84791'.'-73.43552'.
+'Essex','Willsboro Farmers' Market'.'Maple St and NY Rt 22'.'Willsboro'.'NY'.'12996'.'44.36554'.'-73.3941'.
+'Franklin','Paul Smiths Farmers' Market'.'8023 New York 30'.'Paul Smiths'.'NY'.'12970'.'44.4485'.'-74.25941'.
+'Franklin','Saranac Lake Farmers' Market'.'111 River St'.'Saranac Lake'.'NY'.'12983'.'44.32413'.'-74.12598'.
+'Franklin','Saranac Lake Village Farmers' Market'.'River St and Main St'.'Saranac Lake'.'NY'.'12983'.'44.32503'.'-74.13178'.
+'Franklin','Tupper Lake Farmers' Market'.'270 Hosley Ave'.'Tupper Lake'.'NY'.'12986'.'44.2204'.'-74.44318'.
+'Fulton','Gloversville Farmers' Market'.'9 Elm St'.'Gloversville'.'NY'.'12078'.'43.05261'.'-74.34578'.
+'Fulton','Johnstown Farmers' Market'.'Sir William Park'.'Johnstown'.'NY'.'12095'.'43.01507'.'-74.37854'.
+'Fulton','Northville Farmers' Market'.'162 South Main St'.'Northville'.'NY'.'12134'.'43.22568'.'-74.17102'.
+'Genesee','Batavia Farmers' Market'.'8363 Lewiston Rd'.'Batavia'.'NY'.'14020'.'43.00952'.'-78.2072'.
+'Genesee','Downtown Batavia Farmers' Market'.'109 Ellicott St'.'Batavia'.'NY'.'14020'.'42.99511'.'-78.18294'.
+'Genesee','Genesee Country Farmers' Market'.'8315 Park Rd'.'Batavia'.'NY'.'14020'.'43.01001'.'-78.20528'.
+'Genesee','LeRoy Farmers' Market'.'Trigon Park'.'Le Roy'.'NY'.'14482'.'42.97756'.'-77.98592'.
+'Genesee','North Street Farmers' Market'.'301 North Street'.'Batavia'.'NY'.'14020'.'43.00569'.'-78.17281'.
+'Greene','Coxsackie Riverside Farmers' Market'.'1 Betke Blvd'.'Coxsackie'.'NY'.'12051'.'42.3524'.'-73.79703'.
+'Hamilton','Speculator Farmers & Crafters Farmers' Market'.'State Route 30 and Elliot Ln'.'Speculator'.'NY'.'12164'.'43.49674'.'-74.3607'.
+'Herkimer','Dolgeville Farmers' Market'.'12 North Helmer Ave'.'Dolgeville'.'NY'.'13329'.'43.10438'.'-74.77208'.
+'Herkimer','Herkimer/Early Birds Farmers' Market'.'105 North Caroline St'.'Herkimer'.'NY'.'13350'.'43.02386'.'-74.99374'.
+'Herkimer','Herkimer Farmers' Market'.'420 East German St'.'Herkimer'.'NY'.'13350'.'43.03464'.'-74.9865'.
+'Herkimer','Ilion Farmers' Market'.'437 Otsego St'.'Ilion'.'NY'.'13357'.'43.00028'.'-75.04423'.
+'Herkimer','Little Falls Farmers' Market'.'501 East Main St'.'Little Falls'.'NY'.'13365'.'43.04308'.'-74.8589'.
+'Herkimer','Mohawk Farmers' Market'.'41 West Main St'.'Mohawk'.'NY'.'13407'.'43.01075'.'-75.00846'.
+'Herkimer','Old Forge Farmers' Market'.'Crosby Blvd and Park Ave'.'Old Forge'.'NY'.'13420'.'43.70893'.'-74.97286'.
+'Herkimer','West Winfield Farmers' Market'.'452 E. Main St.'.'West Winfield'.'NY'.'13491'.'42.88486'.'-75.18946'.
+'Jefferson','Cape Vincent Farmers' Market'.'Broadway St and James St'.'Cape Vincent'.'NY'.'13618'.'44.12838'.'-76.33472'.
+'Jefferson','Carthage Farmers' Market'.'215 Spring St'.'Carthage'.'NY'.'13619'.'43.97798'.'-75.61225'.
+'Jefferson','Clayton Farmers' Market'.'300 Riverside Dr'.'Clayton'.'NY'.'13624'.'44.24333'.'-76.08579'.
+'Jefferson','Greater Watertown-North Country Market'.'317 Washington Street'.'Watertown'.'NY'.'13601'.'43.97173'.'-75.91117'.
+'Jefferson','Monday Neighborhood Farmers' Market'.'203 North Hamilton St'.'Watertown'.'NY'.'13601'.'43.97306'.'-75.89492'.
+'Jefferson','Philadelphia Farmers' Market'.'2 South Main Street'.'Philadelphia'.'NY'.'13673'.'44.14668'.'-75.7094'.
+'Jefferson','Watertown Saturday Farmers' Market'.'175 Black River Parkway'.'Watertown'.'NY'.'13601'.'43.97651'.'-75.90988'.
+'Kings','Albee Square Farmers' Market'.'Fulton Street and Bond Street'.'Brooklyn'.'NY'.'11201'.'40.6897'.'-73.98296'.
+'Kings','Bartel-Pritchard Square Greenmarket'.'Bartel Pritchard Square'.'Brooklyn'.'NY'.'11215'.'40.66094'.'-73.97979'.
+'Kings','Bay Ridge Greenmarket'.'Third Ave and 95th St'.'Brooklyn'.'NY'.'11209'.'40.61724'.'-74.03362'.
+'Kings','Bensonhurst Greenmarket'.'8112 Cristoforo Colombo Blvd'.'Brooklyn'.'NY'.'11214'.'40.60971'.'-73.99971'.
+'Kings','Boro Park Greenmarket'.'14th Ave and 49th St'.'Brooklyn'.'NY'.'11219'.'40.6337'.'-73.98992'.
+'Kings','Brooklyn Borough Hall Greenmarket'.'Court St and Montague St'.'Brooklyn'.'NY'.'11201'.'40.69375'.'-73.99047'.
+'Kings','Brooklyn Bridge Park Farmers' Market'.'Furman Street and Joralemon Street'.'Brooklyn'.'NY'.'11201'.'40.69389'.'-73.99923'.
+'Kings','Brownsville Community Farmers' Market'.'514 Rockaway Ave'.'Brooklyn'.'NY'.'11212'.'40.66746'.'-73.91048'.
+'Kings','Brownsville Pitkins Ave Youthmarket'.'Thomas Boyland St and Pitkin Ave'.'Brooklyn'.'NY'.'11212'.'40.66925'.'-73.91358'.
+'Kings','Brownsville Rockaway Youthmarket'.'Rockaway Ave and Livonia Ave'.'Brooklyn'.'NY'.'11212'.'40.66255'.'-73.90892'.
+'Kings','Bushwick I Farmers' Market'.'Broadway and Linden St'.'Brooklyn'.'NY'.'11221'.'40.68992'.'-73.92281'.
+'Kings','Bushwick III Farmers' Market'.'Halsey St and Broadway Ave.'.'Brooklyn'.'NY'.'11385'.'40.69952'.'-73.91106'.
+'Kings','Bushwick III Satellite Farmers' Market'.'Irving Ave and Putnam Ave'.'Brooklyn'.'NY'.'11237'.'40.6967'.'-73.9103'.
+'Kings','Bushwick II/Maria Hernandez Farmers' Market'.'Knickerbocker Ave and Starr St'.'Brooklyn'.'NY'.'11237'.'40.70281'.'-73.92539'.
+'Kings','Bushwick II Satellite Farmers' Market'.'Wilson Ave and Halsey St'.'Brooklyn'.'NY'.'11207'.'40.6915'.'-73.90955'.
+'Kings','Bushwick I Satellite Farmers' Market'.'Myrtle Ave and Grove St'.'Brooklyn'.'NY'.'11237'.'40.69916'.'-73.91492'.
+'Kings','Carroll Gardens Greenmarket'.'Carroll St and Court St'.'Brooklyn'.'NY'.'11231'.'40.68106'.'-73.99653'.
+'Kings','Coney Island Farmers' Market'.'Surf Ave and West 16th St'.'Brooklyn'.'NY'.'11224'.'40.57542'.'-73.98345'.
+'Kings','Cooper Park Farmers' Market'.'Cooper Park'.'Brooklyn'.'NY'.'11211'.'40.71607'.'-73.93868'.
+'Kings','Cortelyou Greenmarket'.'Cortelyou Rd and Argyle Rd'.'Brooklyn'.'NY'.'11226'.'40.64044'.'-73.96617'.
+'Kings','Crown Heights Farmers' Market'.'Albany Ave and Lefferts Ave'.'Brooklyn'.'NY'.'11213'.'40.66303'.'-73.94001'.
+'Kings','Cypress Hills Youthmarket'.'Fulton St and Logan St'.'Brooklyn'.'NY'.'11208'.'40.68203'.'-73.87787'.
+'Kings','East New York Farmers' Market I'.'New Lots Ave and Schenck Ave'.'Brooklyn'.'NY'.'11207'.'40.6647'.'-73.88658'.
+'Kings','East New York Farmers' Market II'.'New Lots Ave and Alabama Ave'.'Brooklyn'.'NY'.'11207'.'40.66077'.'-73.8955'.
+'Kings','Fort Greene Park Greenmarket'.'Washington Park and DeKalb Ave'.'Brooklyn'.'NY'.'11205'.'40.68961'.'-73.9731'.
+'Kings','Graham Avenue Farmers' Market'.'Graham Ave and Cook St'.'Brooklyn'.'NY'.'11206'.'40.70235'.'-73.94238'.
+'Kings','Grand Army Plaza Greenmarket'.'Flatbush Ave and Grand Army Plaza'.'Brooklyn'.'NY'.'11238'.'40.67412'.'-73.9695'.
+'Kings','Greenpoint/ McCarren Park Greenmarket'.'McCarren Dog Park Run'.'Brooklyn'.'NY'.'11222'.'40.72004'.'-73.95291'.
+'Kings','Greenpoint/ McGolrick Park Farmers' Market'.'McGolrick Park'.'Brooklyn'.'NY'.'11222'.'40.72444'.'-73.94336'.
+'Kings','Harvest Home Coney Island Farmers' Market'.'Ocean Pkwy and Avenue Z'.'Brooklyn'.'NY'.'11235'.'40.58669'.'-73.96578'.
+'Kings','Harvest Home Lutheran Farmers' Market'.'Second Ave and 55th St'.'Brooklyn'.'NY'.'11220'.'40.6463'.'-74.01984'.
+'Kings','Hattie Carthan After Church Farmers' Market'.'49 Van Buren St'.'Brooklyn'.'NY'.'11221'.'40.69024'.'-73.94359'.
+'Kings','Hattie Carthan Community Garden Farmers' Market'.'356 Clifton Pl'.'Brooklyn'.'NY'.'11216'.'40.68902'.'-73.95016'.
+'Kings','High School for Public Service Farmers' Market'.'600 Kingston Ave'.'Brooklyn'.'NY'.'11203'.'40.65866'.'-73.94384'.
+'Kings','Isabahlia Farmers' Market'.'410 Livonia Ave'.'Brooklyn'.'NY'.'11212'.'40.6635'.'-73.90234'.
+'Kings','Kensington Youthmarket'.'Fort Hamilton Pkwy and East 5th St'.'Brooklyn'.'NY'.'11218'.'40.64915'.'-73.97662'.
+'Kings','Malcolm X Blvd. Community Farmers' Market'.'Malcolm X Blvd and Marion St'.'Brooklyn'.'NY'.'11233'.'40.67975'.'-73.92865'.
+'Kings','Myrtle Avenue Farmers' Market'.'177 Myrtle Ave'.'Brooklyn'.'NY'.'11201'.'40.69363'.'-73.98241'.
+'Kings','Park Slope Farmers' Market'.'Fourth Street and Fifth Avenue'.'Brooklyn'.'NY'.'11215'.'40.6722'.'-73.98379'.
+'Kings','Project EATS Brownsville Farmers' Market'.'Amboy St and Blake Ave'.'Brooklyn'.'NY'.'11212'.'40.66507'.'-73.91348'.
+'Kings','Sunset Park Greenmarket'.'4th Ave and 60th St'.'Brooklyn'.'NY'.'11220'.'40.64081'.'-74.01836'.
+'Kings','Urban Oasis Farmers' Market'.'681 Clarkson Ave'.'Brooklyn'.'NY'.'11203'.'40.65621'.'-73.93741'.
+'Kings','Walt Shamel Farmers' Market'.'109 Dean Street'.'Brooklyn'.'NY'.'11217'.'40.68693'.'-73.98894'.
+'Kings','Weeksville Heritage Center Farmers' Market'.'158 Buffalo Ave'.'Brooklyn'.'NY'.'11213'.'40.67398'.'-73.92531'.
+'Kings','Williamsburg Greenmarket'.'Havemeyer St and Division Ave'.'Brooklyn'.'NY'.'11211'.'40.70741'.'-73.95993'.
+'Kings','Windsor Terrace PS 154 Greenmarket'.'1625 11th Avenue'.'Brooklyn'.'NY'.'11215'.'40.65699'.'-73.97597'.
+'Lewis','Lewis Co. General Hospital Farmers' Market'.'7785 North State St'.'Lowville'.'NY'.'13367'.'43.79588'.'-75.4981'.
+'Lewis','Lowville Farmers' Market'.'Bostwick St and Park Ave'.'Lowville'.'NY'.'13367'.'43.79322'.'-75.49079'.
+'Lewis','Lyons Falls Farmers' Market'.'6904 Laura St'.'Lyons Falls'.'NY'.'13368'.'43.61391'.'-75.35499'.
+'Livingston','Avon Farmers' Market'.'270 East Main St'.'Avon'.'NY'.'14414'.'42.91071'.'-77.73382'.
+'Livingston','Dansville Farmers' Market'.'50 Maple St'.'Dansville'.'NY'.'14437'.'42.56598'.'-77.70836'.
+'Livingston','Geneseo Farmers' Market'.'Main St and Center St'.'Geneseo'.'NY'.'14454'.'42.79624'.'-77.81679'.
+'Livingston','Lima Presbyterian Church Farmers' Market'.'West Main St and Rochester St'.'Lima'.'NY'.'14485'.'42.90496'.'-77.61175'.
+'Livingston','Mount Morris Village Farmers' Market'.'36 North Main St'.'Mount Morris'.'NY'.'14510'.'42.73078'.'-77.87658'.
+'Madison','Canastota Farmers' Market'.'South Main St and West Hickory St'.'Canastota'.'NY'.'13032'.'43.07476'.'-75.75539'.
+'Madison','Cazenovia Farmers' Market'.'Albany St and Sullivan St'.'Cazenovia'.'NY'.'13035'.'42.92989'.'-75.8552'.
+'Madison','Hamilton Farmers' Market'.'Broad St and Payne St'.'Hamilton'.'NY'.'13346'.'42.82684'.'-75.54436'.
+'Madison','Oneida Farmers' Market'.'Oneida Street and Main Street'.'Oneida'.'NY'.'13421'.'43.09618'.'-75.65255'.
+'Monroe','Affinity Orchard Place Farmers' Market'.'One Affinity Lane'.'Greece'.'NY'.'14626'.'43.24028'.'-77.67841'.
+'Monroe','Brockport Farmers' Market'.'Main St and Market St'.'Brockport'.'NY'.'14420'.'43.21556'.'-77.9385'.
+'Monroe','Fairport Farmers' Market'.'58 South Main St'.'Fairport'.'NY'.'14450'.'43.09992'.'-77.44214'.
+'Monroe','Genesee Valley RMA Farmers' Market'.'900 Jefferson Rd.'.'Henrietta'.'NY'.'14623'.'43.09005'.'-77.61401'.
+'Monroe','Greece Ridge Mall Farmers' Market'.'Long Pond Rd and Mitchell Rd'.'Greece'.'NY'.'14626'.'43.20557'.'-77.69618'.
+'Monroe','Hamlin Farmers' Market'.'1658 Lake Rd'.'Hamlin'.'NY'.'14464'.'43.2969'.'-77.91738'.
+'Monroe','Irondequoit Farmers' Market'.'1280 Titus Ave'.'Rochester'.'NY'.'14617'.'43.21118'.'-77.58154'.
+'Monroe','North Chili Farmers' Market'.'2200 Westside Dr'.'North Chilli'.'NY'.'14514'.'43.12646'.'-77.78968'.
+'Monroe','Pittsford Farmers' Market'.'3400 Monroe Ave'.'Rochester'.'NY'.'14618'.'43.10222'.'-77.53524'.
+'Monroe','Rochester/441  Ministries Market'.'441 Paresells Ave'.'Rochester'.'NY'.'14609'.'43.16583'.'-77.5666'.
+'Monroe','Rochester/7th Day Adventist Market'.'309 Jefferson Ave'.'Rochester'.'NY'.'14611'.'43.14878'.'-77.62944'.
+'Monroe','Rochester/Aenon Baptist Market'.'175 Genesee St'.'Rochester'.'NY'.'14611'.'43.1466'.'-77.63608'.
+'Monroe','Rochester/Bridges to Wellness Market'.'700 North St'.'Rochester'.'NY'.'14605'.'43.17067'.'-77.59583'.
+'Monroe','Rochester/Brighton Farmers' Market'.'1150 Winton Rd South'.'Rochester'.'NY'.'14618'.'43.12203'.'-77.56811'.
+'Monroe','Rochester/Cathedral Community Market'.'296 Flower City Park'.'Rochester'.'NY'.'14615'.'43.19312'.'-77.63275'.
+'Monroe','Rochester/Community Place Market'.'500 Carter St'.'Rochester'.'NY'.'14621'.'43.18631'.'-77.59177'.
+'Monroe','Rochester/Conkey Corner Market'.'Clifford Ave and Conkey Ave'.'Rochester'.'NY'.'14621'.'43.17472'.'-77.6196'.
+'Monroe','Rochester/Deaf Club Market'.'1564 Lyell Ave'.'Rochester'.'NY'.'14606'.'43.165'.'-77.66715'.
+'Monroe','Rochester/Freedom Market'.'359 Webster Ave'.'Rochester'.'NY'.'14609'.'43.16842'.'-77.57483'.
+'Monroe','Rochester/JOSANA Market'.'676 Jay St'.'Rochester'.'NY'.'14611'.'43.15974'.'-77.63867'.
+'Monroe','Rochester Public Market'.'280 North Union St.'.'Rochester'.'NY'.'14609'.'43.1657'.'-77.59016'.
+'Monroe','Rochester/South Wedge Farmers' Market'.'100 Alexander St'.'Rochester'.'NY'.'14620'.'43.14598'.'-77.60243'.
+'Monroe','Rochester/St. Mark & St. John Episcopal Market'.'1245 Culver Rd'.'Rochester'.'NY'.'14609'.'43.16807'.'-77.56219'.
+'Monroe','Rochester/Washington Square Farmers' Market'.'181 South Clinton Ave'.'Rochester'.'NY'.'14604'.'43.15352'.'-77.60533'.
+'Monroe','Rochester/Westside Farmers' Market'.'831 Genesee St'.'Rochester'.'NY'.'14611'.'43.13373'.'-77.636'.
+'Monroe','Rochester/Women's Coffee Connection Market'.'2271 East Main St'.'Rochester'.'NY'.'14609'.'43.15884'.'-77.55016'.
+'Monroe','Webster Joe Obbie Farmers' Market'.'Holt Road and Ridge Road'.'Webster'.'NY'.'14580'.'43.21035'.'-77.44665'.
+'Montgomery','Amsterdam Downtown Farmers' Market'.'53 Guy Park Avenue'.'Amsterdam'.'NY'.'12010'.'42.94083'.'-74.1934'.
+'Montgomery','Amsterdam Sanford Farm Farmers' Market'.'110 Town Square Dr'.'Amsterdam'.'NY'.'12010'.'42.96078'.'-74.18542'.
+'Montgomery','Canajoharie Farmers' Market'.'2 Erie Blvd'.'Canajoharie'.'NY'.'13317'.'42.90736'.'-74.572'.
+'Montgomery','Fort Plain Farmers' Market'.'12 Willet Street'.'Fort Plain'.'NY'.'13339'.'42.93145'.'-74.62156'.
+'Nassau','Belmont Raceway Farmers' Market'.'2150 Hempstead Turnpike'.'Elmont'.'NY'.'11003'.'40.71475'.'-73.71797'.
+'Nassau','Freeport Community Farmers' Market'.'130 East Merrick Rd'.'Freeport'.'NY'.'11520'.'40.65447'.'-73.57496'.
+'Nassau','Garden City Farmers' Market'.'County Seat Dr and Supreme Court Dr'.'Garden City'.'NY'.'11530'.'40.73609'.'-73.63505'.
+'Nassau','Great Neck Community Farmers' Market'.'125 Community Drive'.'Great Neck'.'NY'.'11021'.'40.78414'.'-73.70454'.
+'Nassau','Kennedy Plaza Farmers' Market'.'1 West Chester St'.'Long Beach'.'NY'.'11561'.'40.58941'.'-73.66594'.
+'Nassau','Kings Park Farmers' Market'.'1 E. Main St.'.'Kings Park'.'NY'.'11754'.'40.88423'.'-73.25242'.
+'Nassau','Locust Valley Farmers' Market'.'115 Forest Ave'.'Locust Valley'.'NY'.'11560'.'40.87555'.'-73.59994'.
+'Nassau','New Cassel Farmers' Market'.'211 Garden St'.'Westbury'.'NY'.'11590'.'40.76179'.'-73.56789'.
+'Nassau','New Hyde Park Farmers' Market'.'Jericho Turnpike and New Hyde Park Rd'.'New Hyde Park'.'NY'.'11040'.'40.7337'.'-73.68008'.
+'Nassau','Port Washington Organic Farmers' Market'.'Main St and Covert St'.'Port Washington'.'NY'.'11050'.'40.83153'.'-73.7019'.
+'Nassau','Rockville Centre Farmers' Market'.'Sunrise Hwy and Long Beach Rd'.'Rockville Centre'.'NY'.'11570'.'40.65712'.'-73.6321'.
+'Nassau','Roosevelt Community Farmers' Market'.'380 Nassau Rd'.'Roosevelt'.'NY'.'11575'.'40.68185'.'-73.59092'.
+'Nassau','Roslyn-North Hills Farmers' Market'.'500 Searingtown Rd'.'Roslyn Heights'.'NY'.'11577'.'40.78188'.'-73.66277'.
+'Nassau','Seaford Farmers' Market'.'Seaford Railroad Station'.'Seaford'.'NY'.'11783'.'40.67572'.'-73.48657'.
+'New York','175th St. Greenmarket'.'West 175th St and Broadway'.'New York'.'NY'.'10033'.'40.84622'.'-73.93847'.
+'New York','42nd St. Greenmarket'.'42nd St and 11th Ave'.'Manhattan'.'NY'.'10036'.'40.76085'.'-73.99832'.
+'New York','57th St. Greenmarket'.'West 57th St and Ninth Ave'.'New York'.'NY'.'10019'.'40.76792'.'-73.98572'.
+'New York','79th St. Greenmarket'.'West 79th St and Columbus Ave'.'New York'.'NY'.'10024'.'40.78195'.'-73.97548'.
+'New York','82 St./St. Stephens Greenmarket'.'East 82nd St and First Ave'.'New York'.'NY'.'10028'.'40.7743'.'-73.95126'.
+'New York','92 St. Greenmarket'.'East 92nd St and First Ave'.'New York'.'NY'.'10128'.'40.78071'.'-73.94658'.
+'New York','97th Street Greenmarket'.'West 97th St and Columbus Ave'.'New York'.'NY'.'10025'.'40.79356'.'-73.96701'.
+'New York','Abingdon Square Greenmarket'.'Hudson St and 8th Ave'.'New York'.'NY'.'10014'.'40.73691'.'-74.00557'.
+'New York','Bowling Green Greenmarket'.'Broadway and Bowling Green'.'New York'.'NY'.'10004'.'40.70463'.'-74.01415'.
+'New York','Broadway French Farmers' Market'.'Broadway and 35th Street'.'Manhattan'.'NY'.'10018'.'40.75069'.'-73.98783'.
+'New York','City Hall Park Greenmarket'.'Broadway and Chambers St'.'New York'.'NY'.'10007'.'40.71416'.'-74.00632'.
+'New York','Columbia Greenmarket'.'Broadway and West 115th St'.'New York'.'NY'.'10027'.'40.80738'.'-73.96447'.
+'New York','Dag Hammarskjold Plaza Greenmarket'.'East 47th St and Second Ave'.'New York'.'NY'.'10017'.'40.75298'.'-73.96989'.
+'New York','Fort Washington Greenmarket'.'Fort Washington Ave and West 168th St'.'New York'.'NY'.'10032'.'40.84217'.'-73.94227'.
+'New York','Grass Roots Farmers' Market'.'West 145th St and Edgecombe Ave'.'New York'.'NY'.'10030'.'40.82363'.'-73.94383'.
+'New York','Hamilton Heights Green Farmers Market'.'143rd Street and Amsterdam Ave'.'Manhattan'.'NY'.'10031'.'40.82395'.'-73.94853'.
+'New York','Harlem State Office Building Farmers' Market'.'163 West 125 Street'.'New York'.'NY'.'10027'.'40.80849'.'-73.94715'.
+'New York','Harvest Home East Harlem Farmers' Market'.'East 104th St and Third Ave'.'New York'.'NY'.'10029'.'40.79024'.'-73.94564'.
+'New York','Harvest Home Harlem Hospital Farmers' Market'.'137th Street and Lennox Avenue'.'New York'.'NY'.'10037'.'40.81539'.'-73.93985'.
+'New York','Harvest Home Metropolitan Farmers' Market'.'East 99th St and Third Ave'.'New York'.'NY'.'10029'.'40.78713'.'-73.94792'.
+'New York','Harvest Home Mt. Morris Park Farmers' Market'.'East 124th St and Fifth Ave'.'New York'.'NY'.'10027'.'40.80575'.'-73.94275'.
+'New York','Harvest Home West Harlem Farmers' Market'.'137th St and Broadway'.'New York'.'NY'.'10031'.'40.82136'.'-73.95404'.
+'New York','Herban Farmers' Market - Mt. Morris Park'.'18 Mt Morris Park W'.'New York'.'NY'.'10027'.'40.80502'.'-73.9449'.
+'New York','Inwood Park Greenmarket'.'Isham St and Seaman St'.'New York'.'NY'.'10034'.'40.86988'.'-73.9209'.
+'New York','Lower East Side Youthmarket'.'Grand St and Pitt St'.'New York'.'NY'.'10002'.'40.71523'.'-73.9843'.
+'New York','Morningside Park Farmers' Market'.'West 110th St and Manhattan Ave'.'New York'.'NY'.'10025'.'40.80116'.'-73.95965'.
+'New York','Mount Sinai Hospital Greenmarket'.'East 99th St and Madison Ave'.'New York'.'NY'.'10029'.'40.78918'.'-73.95276'.
+'New York','PATH Greenmarket'.'Broadway and Park Pl'.'New York'.'NY'.'10007'.'40.7126'.'-74.00764'.
+'New York','Port Authority Bus Terminal Greenmarket'.'8th Ave and West 42nd St'.'New York'.'NY'.'10036'.'40.75723'.'-73.98979'.
+'New York','Project EATS Frederick Douglas Houses Farmers' Market'.'830 Amsterdam Ave'.'New York'.'NY'.'10025'.'40.79703'.'-73.96822'.
+'New York','Rockefeller Center Greenmarket'.'Rockefeller Plaza and West 50th St'.'New York'.'NY'.'10112'.'40.75907'.'-73.97846'.
+'New York','Saint Mark's Church Greenmarket'.'East 10th St and Second Ave'.'New York'.'NY'.'10003'.'40.72977'.'-73.98681'.
+'New York','SoHA Square Farmers' Market'.'W 117th and Frederick Douglass Blvd'.'Manhattan'.'NY'.'10026'.'40.80511'.'-73.95487'.
+'New York','Staten Island Ferry Whitehall Greenmarket'.'4 South St'.'New York'.'NY'.'10005'.'40.70155'.'-74.01213'.
+'New York','Stuyvesant Town Greenmarket'.'1 Stuyvesant Oval'.'New York'.'NY'.'10009'.'40.73075'.'-73.978'.
+'New York','Tompkins Square Greenmarket'.'Avenue A and East 7th St'.'New York'.'NY'.'10009'.'40.72606'.'-73.98354'.
+'New York','Tribeca Greenmarket'.'Greenwich St and Chambers St'.'New York'.'NY'.'10007'.'40.71629'.'-74.01095'.
+'New York','Tucker Square Greenmarket'.'Columbus and West 66th St'.'New York'.'NY'.'10023'.'40.77361'.'-73.98158'.
+'New York','Union Square Greenmarket'.'Broadway and West 17th St'.'New York'.'NY'.'10003'.'40.73712'.'-73.99029'.
+'Niagara','Barker Farmers' Market'.'Main St and Quaker Rd'.'Barker'.'NY'.'14012'.'43.33012'.'-78.55481'.
+'Niagara','Lockport Farmers' Market'.'Walnut St and Pine St'.'Lockport'.'NY'.'14094'.'43.16883'.'-78.69199'.
+'Niagara','Middleport Community Farmers' Market'.'79 Telegraph Rd'.'Middleport'.'NY'.'14105'.'43.20482'.'-78.4838'.
+'Niagara','Niagara Falls City Market'.'Pine Ave and 18th St'.'Niagara Falls'.'NY'.'14301'.'43.0951'.'-79.04017'.
+'Niagara','North Tonawanda City Farmers' Market'.'Payne Ave and Robinson St'.'North Tonawanda'.'NY'.'14120'.'43.03357'.'-78.8711'.
+'Oneida','Boonville Farmers' Market'.'222 Schuyler St'.'Boonville'.'NY'.'13309'.'43.48312'.'-75.34464'.
+'Oneida','City of Sherrill Farmers' Market'.'Sherrill Rd and Park St'.'Sherrill'.'NY'.'13461'.'43.0725'.'-75.5984'.
+'Oneida','Clinton Farmers' Market'.'College St and West Park Row'.'Clinton'.'NY'.'13323'.'43.04823'.'-75.37883'.
+'Oneida','Oneida County Public Market'.'1st St. and Main St.'.'Utica'.'NY'.'13501'.'43.10364'.'-75.223'.
+'Oneida','Rome Vendors Market'.'Erie Blvd and North James St'.'Rome'.'NY'.'13440'.'43.2099'.'-75.45824'.
+'Oneida','Trenton Farmers' Market'.'Main St and Church St'.'Holland Patent'.'NY'.'13354'.'43.24132'.'-75.25754'.
+'Oneida','Utica Farmers' Market'.'Bleeker St and 1st St'.'Utica'.'NY'.'13501'.'43.10043'.'-75.22483'.
+'Oneida','Village of Waterville Farmers' Market'.'Village Green'.'Waterville'.'NY'.'13480'.'42.91417'.'-75.37875'.
+'Oneida','Westmoreland Farmers' Market'.'4834 State Route 233'.'Westmoreland'.'NY'.'13490'.'43.09965'.'-75.40026'.
+'Onondaga','Camillus Farmers' Market'.'4600 West Genesee St'.'Camillus'.'NY'.'13219'.'43.04568'.'-76.24872'.
+'Onondaga','Downtown Syracuse Farmers' Market'.'Clinton St and Water St'.'Syracuse'.'NY'.'13202'.'43.05054'.'-76.15354'.
+'Onondaga','Liverpool Bayberry Plaza Farmers' Market'.'Blackberry Rd and Oswego Rd'.'Liverpool'.'NY'.'13090'.'43.14036'.'-76.22751'.
+'Onondaga','New York State Fair Farmers' Market'.'581 State Fair Blvd'.'Syracuse'.'NY'.'13209'.'43.07441'.'-76.22467'.
+'Onondaga','Skaneateles Farmers' Market'.'Austin St and Jordan St'.'Skaneateles'.'NY'.'13152'.'42.95085'.'-76.43092'.
+'Onondaga','Syracuse/Central New York Regional Market'.'Park St and Farmers Market Pl'.'Syracuse'.'NY'.'13208'.'43.07269'.'-76.16835'.
+'Onondaga','Syracuse Eastside Neighborhood Market'.'826 Euclid Ave'.'Syracuse'.'NY'.'13210'.'43.03662'.'-76.1192'.
+'Onondaga','Syracuse Farm Fresh Mobile Market'.'Contact for Locations'.'Syracuse'.'NY'.'13201'.'43.04585'.'-76.15233'.
+'Ontario','Canandaigua Farmers' Market'.'Beeman St and Mill St'.'Canandaigua'.'NY'.'14424'.'42.88534'.'-77.27837'.
+'Ontario','Geneva Farmers' Market'.'400 Exchange St'.'Geneva'.'NY'.'14456'.'42.8691'.'-76.98096'.
+'Ontario','VA Farmers' Market Canandaigua'.'400 Fort Hill Ave'.'Canandaigua'.'NY'.'14424'.'42.90096'.'-77.27033'.
+'Ontario','Victor Farmers' Market'.'60 East Main St'.'Victor'.'NY'.'14564'.'42.98134'.'-77.40859'.
+'Orange','Florida Farmers' Market'.'North Main St and Randall St'.'Florida'.'NY'.'10921'.'41.33779'.'-74.35873'.
+'Orange','Goshen Farmers' Market'.'Main St and Church St'.'Goshen'.'NY'.'10924'.'41.40219'.'-74.32408'.
+'Orange','Middletown Farmers' Market'.'Railroad Ave and Grove St'.'Middletown'.'NY'.'10940'.'41.44787'.'-74.41651'.
+'Orange','Monroe Farmers' Market'.'1010 State Route 17M'.'Monroe'.'NY'.'10950'.'41.344'.'-74.19742'.
+'Orange','Newburgh/Downing Park Farmers' Market'.'Robinson Ave and South St'.'Newburgh'.'NY'.'12550'.'41.50754'.'-74.02051'.
+'Orange','Newburgh/Healthy Orange Farmers' Market'.'131 Broadway'.'Newburgh'.'NY'.'12550'.'41.50009'.'-74.01254'.
+'Orange','Newburgh Mall Farmers' Market'.'1401 New York 300'.'Newburgh'.'NY'.'12550'.'41.51758'.'-74.0714'.
+'Orange','Pine Bush Farmers' Market'.'62 Main St'.'Pine Bush'.'NY'.'12566'.'41.60932'.'-74.30051'.
+'Orange','Route 17 M Farmers' Market'.'1 Fischer Lane'.'New Hampton'.'NY'.'10958'.'41.40459'.'-74.39593'.
+'Orange','Tuxedo Farmers' Market'.'240 State Route 17'.'Tuxedo'.'NY'.'10987'.'41.19447'.'-74.18447'.
+'Orange','Village of Chester Farmers' Market'.'Winkler Place'.'Chester'.'NY'.'10918'.'41.36259'.'-74.27068'.
+'Orange','Walden Farmers' Market'.'5 Scofield St'.'Walden'.'NY'.'12586'.'41.55983'.'-74.1895'.
+'Orange','Warwick Valley Farmers' Market'.'South St and Bank St'.'Warwick'.'NY'.'10990'.'41.25656'.'-74.35858'.
+'Orange','West Point/Town of Highlands Farmers' Market'.'Main St and Cozzens Ave'.'Highlands'.'NY'.'10928'.'41.3723'.'-73.96434'.
+'Orleans','Albion/Orleans County Farmers' Market'.'320 West Ave'.'Albion'.'NY'.'14411'.'43.24081'.'-78.20337'.
+'Orleans','Medina/Orleans County Farmers' Market'.'Main St and Manilla Pl'.'Medina'.'NY'.'14103'.'43.22171'.'-78.38694'.
+'Oswego','Fulton Farmers' Market'.'South Second St and Canalview Mall'.'Fulton'.'NY'.'13069'.'43.32321'.'-76.41577'.
+'Oswego','Hillside Farmers' Market'.'7753 State Route 3'.'Pulaski'.'NY'.'13142'.'43.58758'.'-76.17344'.
+'Oswego','New Haven Farmers' Market'.'4279 State Route 104'.'New Haven'.'NY'.'13121'.'43.47981'.'-76.31714'.
+'Oswego','Oswego Farmers' Market'.'West Bridge St and West 1st St'.'Oswego'.'NY'.'13126'.'43.45656'.'-76.51127'.
+'Oswego','Phoenix Farmers' Market'.'202 County Route 57'.'Phoenix'.'NY'.'13135'.'43.21639'.'-76.28409'.
+'Oswego','Pulaski Farmers' Market'.'Lake St and Broad St'.'Pulaski'.'NY'.'13142'.'43.56713'.'-76.12811'.
+'Oswego','Volney Farmers' Market'.'1445 Co. Rt. 6'.'Fulton'.'NY'.'13069'.'43.3415'.'-76.35839'.
+'Otsego','Cooperstown Farmers' Market'.'101 Main St'.'Cooperstown'.'NY'.'13326'.'42.70001'.'-74.92526'.
+'Otsego','Fly Creek Farmers' Market'.'852 County Highway 26'.'Fly Creek'.'NY'.'13337'.'42.7163'.'-74.98261'.
+'Otsego','Morris Farmers' Market'.'Main St and Church St'.'Morris'.'NY'.'13808'.'42.54813'.'-75.24686'.
+'Otsego','Oneonta Farmers' Market'.'Main St and Dietz St'.'Oneonta'.'NY'.'13820'.'42.45378'.'-75.06214'.
+'Otsego','Richfield Springs Area Farmers' Market'.'Main St and Church St'.'Richfield Springs'.'NY'.'13439'.'42.85342'.'-74.98512'.
+'Putnam','Brewster Farmers' Market'.'208 E. Main St'.'Brewster'.'NY'.'10509'.'41.39526'.'-73.60705'.
+'Putnam','Cold Spring Farmers' Market'.'1601 State Route 9D'.'Cold Spring'.'NY'.'10516'.'41.41038'.'-73.9377'.
+'Queens','Astoria Greenmarket'.'14th St and 31st Ave'.'Astoria'.'NY'.'11106'.'40.76825'.'-73.93203'.
+'Queens','Corona Greenmarket'.'Roosevelt Ave and 103rd St'.'Corona'.'NY'.'11368'.'40.7499'.'-73.86268'.
+'Queens','Elmhurst Hospital Greenmarket'.'41st Ave and 80th St'.'Elmhurst'.'NY'.'11373'.'40.74579'.'-73.88549'.
+'Queens','Forest Hills Greenmarket'.'Queens Blvd and 70th Ave'.'Queens'.'NY'.'11375'.'40.72188'.'-73.84639'.
+'Queens','Harvest Home Roy Wilkins Park'.'Merrick and Baisley Blvd'.'Queens'.'NY'.'11434'.'40.68381'.'-73.76973'.
+'Queens','Jackson Heights Greenmarket'.'34th Ave and 77th St'.'Jackson Heights'.'NY'.'11372'.'40.7532'.'-73.88968'.
+'Queens','Jamaica Farmers' Market'.'160th St and Jamaica Ave'.'Jamaica'.'NY'.'11432'.'40.70374'.'-73.79915'.
+'Queens','Joseph Addabbo FHC Farmers' Market'.'6200 Beach Channel Dr'.'Arverne'.'NY'.'11692'.'40.5932'.'-73.79174'.
+'Queens','Long Island City Youthmarket'.'Vernon Blvd and 48th Ave'.'Long Island City'.'NY'.'11101'.'40.74401'.'-73.9537'.
+'Queens','Pomonok Farmers' Market'.'67-09 Kissena Blvd'.'Flushing'.'NY'.'11365'.'40.73529'.'-73.81463'.
+'Queens','Queens Botanical Garden Farmers' Market'.'Main St and Dahlia Ave'.'Flushing'.'NY'.'11355'.'40.75187'.'-73.82639'.
+'Queens','Queens Hospital Center Farmers' Market'.'82-68 164th St'.'Jamaica'.'NY'.'11432'.'40.71755'.'-73.80357'.
+'Queens','Ridgewood Youthmarket'.'Myrtle Ave and Cypress Ave'.'Ridgewood'.'NY'.'11385'.'40.70011'.'-73.90619'.
+'Queens','Socrates Sculpture Park Greenmarket'.'Vernon Blvd and Broadway'.'Astoria'.'NY'.'11106'.'40.76769'.'-73.93618'.
+'Queens','Sunnyside Greenmarket'.'Skillman Ave and 42nd St'.'Sunnyside'.'NY'.'11104'.'40.74699'.'-73.92173'.
+'Rensselaer','Brunswick Farmers' Market'.'18 Keyes Lane'.'Brunswick'.'NY'.'12180'.'42.75263'.'-73.62021'.
+'Rensselaer','North Greenbush Farmers' Market'.'95 Williams Rd'.'North Greenbush'.'NY'.'12180'.'42.69013'.'-73.67672'.
+'Rensselaer','Troy Waterfront Farmers' Market'.'433 River St'.'Troy'.'NY'.'12180'.'42.7374'.'-73.68724'.
+'Richmond','Saint George Greenmarket'.'St Marks Pl and Hyatt St'.'Staten Island'.'NY'.'10301'.'40.64159'.'-74.07791'.
+'Richmond','Staten Island Mall Greenmarket'.'2655 Richmond Ave'.'Staten Island'.'NY'.'10314'.'40.58091'.'-74.16911'.
+'Rockland','Haverstraw Farmers' Market'.'New Main St and Maple Ave'.'Haverstraw'.'NY'.'10927'.'41.19639'.'-73.96645'.
+'Rockland','Nyack Farmers' Market'.'Main St and Franklin St'.'Nyack'.'NY'.'10960'.'41.09154'.'-73.92161'.
+'Rockland','Piermont Farmers' Market'.'Ash St and Piermont Ave'.'Piermont'.'NY'.'10968'.'41.04137'.'-73.9164'.
+'Rockland','Spring Valley Farmers' Market'.'Memorial Park'.'Spring Valley'.'NY'.'10977'.'41.11506'.'-74.0425'.
+'Rockland','Suffern Farmers' Market'.'Orange Ave and Wayne Ave'.'Suffern'.'NY'.'10901'.'41.11713'.'-74.1549'.
+'Rockland','West Haverstraw Farmers' Market'.'130 Samsondale Avenue'.'West Haverstraw'.'NY'.'10993'.'41.20349'.'-73.97336'.
+'Saratoga','Ballston Spa Farmers' Market'.'Front St and Low St'.'Ballston Spa'.'NY'.'12020'.'43.00256'.'-73.84964'.
+'Saratoga','Burnt Hills Farmers' Market'.'772 Saratoga Rd'.'Burnt Hills'.'NY'.'12027'.'42.90479'.'-73.90284'.
+'Saratoga','Clifton Park/Saratoga Farmers' Market'.'912 State Route 146'.'Clifton Park'.'NY'.'12065'.'42.866'.'-73.79782'.
+'Saratoga','Gansevoort Farmers' Market'.'State Route 32 and Wilton-Gansevoort Rd'.'Gansevoort'.'NY'.'12831'.'43.19611'.'-73.65161'.
+'Saratoga','Greenfield Center Farmers' Market'.'430 Middle Grove Rd'.'Greenfield'.'NY'.'12850'.'43.09209'.'-73.89096'.
+'Saratoga','Malta/Saratoga Farmers' Market'.'1 Bayberry Drive'.'Ballston Spa'.'NY'.'12020'.'42.97942'.'-73.78949'.
+'Saratoga','Saratoga Farmers' Market'.'High Rock Ave and Lake Ave'.'Saratoga Springs'.'NY'.'12866'.'43.08288'.'-73.78304'.
+'Saratoga','South Glens Falls Farmers' Market'.'64 Spring St'.'South Glens Falls'.'NY'.'12803'.'43.30035'.'-73.63221'.
+'Saratoga','Town of Galway Farmers' Market'.'5188 New York 147'.'Galway'.'NY'.'12074'.'43.01545'.'-74.03111'.
+'Schenectady','Farm to Preschool I Farmers' Market'.'44 Washington Ave'.'Schenectady'.'NY'.'12305'.'42.81645'.'-73.9492'.
+'Schenectady','Farm to Preschool II Farmers' Market'.'125 Bigelow Ave'.'Schenectady'.'NY'.'12304'.'42.79521'.'-73.92472'.
+'Schenectady','Schenectady Bellevue Farmers' Market'.'2176 Broadway'.'Schenectady'.'NY'.'12306'.'42.79699'.'-73.96735'.
+'Schenectady','Schenectady City Hall Farmers' Market'.'Franklin St and Jay St'.'Schenectady'.'NY'.'12305'.'42.81378'.'-73.94032'.
+'Schenectady','Schenectady Greenmarket'.'State St and Jay St'.'Schenectady'.'NY'.'12305'.'42.81253'.'-73.94137'.
+'Schenectady','Schenectady St. Luke's Farmers' Market'.'1235 State St'.'Schenectady'.'NY'.'12304'.'42.79894'.'-73.92413'.
+'Schenectady','Schenectady Union St. Farmers' Market'.'1760 Union St'.'Niskayuna'.'NY'.'12309'.'42.8022'.'-73.8992'.
+'Schoharie','Schoharie Co. Country Music Festival FM'.'942 East Main St'.'Cobleskill'.'NY'.'12043'.'42.67886'.'-74.46711'.
+'Schoharie','Sharon Springs Farmers' Market'.'Main Street and Washington Street'.'Sharon Springs'.'NY'.'13459'.'42.79545'.'-74.61721'.
+'Schuyler','Watkins Glen Farmers' Market'.'Fifth St and Porter St'.'Watkins Glen'.'NY'.'14891'.'42.38096'.'-76.86954'.
+'Seneca','Seneca Falls Farmers' Market'.'Water St and Bridge St'.'Seneca Falls'.'NY'.'13148'.'42.90412'.'-76.80005'.
+'Steuben','Bath Saturday Farmers' Market'.'Steuben St and Liberty St'.'Bath'.'NY'.'14810'.'42.33353'.'-77.31842'.
+'Steuben','Bath Wednesday Farmers' Market'.'Steuben St and Liberty St'.'Bath'.'NY'.'14810'.'42.33353'.'-77.31842'.
+'Steuben','Corning Farmers' Market'.'State Route 414 and East Tioga Ave'.'Corning'.'NY'.'14830'.'42.14366'.'-77.05226'.
+'St. Lawrence','Canton Farmers' Market'.'Main St and Park St'.'Canton'.'NY'.'13617'.'44.59564'.'-75.16921'.
+'St. Lawrence','Fowler Farmers' Market'.'Farm to Market Rd and Route 58'.'Fowler'.'NY'.'13642'.'44.28284'.'-75.39121'.
+'St. Lawrence','Gouverneur Farmers' Market'.'Church St and John St'.'Gouverneur'.'NY'.'13642'.'44.3353'.'-75.46749'.
+'St. Lawrence','Hogansburg Farmers' Market'.'29 Business Park Rd'.'Hogansburg'.'NY'.'13655'.'44.98722'.'-74.64943'.
+'St. Lawrence','Massena Sunday Farmers' Market'.'60 Main St'.'Massena'.'NY'.'13662'.'44.93114'.'-74.89334'.
+'St. Lawrence','Massena Thursday Farmers' Market'.'3 Maltby Ave'.'Massena'.'NY'.'13362'.'44.92767'.'-74.8777'.
+'St. Lawrence','Norwood Farmers' Market'.'Main St and Park St'.'Norwood'.'NY'.'13668'.'44.74905'.'-74.99353'.
+'St. Lawrence','Ogdensburg Saturday Green Market'.'Riverside St and State St'.'Ogdensburg'.'NY'.'13669'.'44.69972'.'-75.49459'.
+'St. Lawrence','Ogdensburg Thursday Green Market'.'King St and Mansion Ave'.'Ogdensburg'.'NY'.'13669'.'44.69189'.'-75.50066'.
+'St. Lawrence','Potsdam Main Street Farmers' Market'.'Main St and Union St'.'Potsdam'.'NY'.'13676'.'44.66865'.'-74.98493'.
+'St. Lawrence','Winthrop Farmers' Market'.'645 New York 11C'.'Winthrop'.'NY'.'13697'.'44.79402'.'-74.78794'.
+'Suffolk','Amityville Farmers' Market'.'253 Broadway'.'Amityville'.'NY'.'11701'.'40.6799'.'-73.41695'.
+'Suffolk','Babylon Village Farmers' Market'.'Railroad Ave and N Carll Ave'.'Babylon'.'NY'.'11702'.'40.6996'.'-73.32594'.
+'Suffolk','East Hampton Farmers' Market'.'136 North Main St'.'Easthampton'.'NY'.'11937'.'40.97017'.'-72.18124'.
+'Suffolk','Farmingdale Farmers' Market'.'211-A Main St.'.'Farmingdale'.'NY'.'11735'.'40.73406'.'-73.44599'.
+'Suffolk','Flanders Farmers' Market'.'655 Flanders Rd'.'Flanders'.'NY'.'11901'.'40.90867'.'-72.63666'.
+'Suffolk','Greater Bellport Farmers' Market'.'685 Station Rd'.'Bellport'.'NY'.'11713'.'40.77797'.'-72.94364'.
+'Suffolk','Greenport Farmers' Market'.'624 1st St'.'Greenport'.'NY'.'11944'.'41.10717'.'-72.36245'.
+'Suffolk','Hauppauge Farmers' Market'.'102 Motor Pkwy'.'Happauge'.'NY'.'11788'.'40.80716'.'-73.26671'.
+'Suffolk','Huntington Village Farmers' Market'.'State Route 110 and Main St'.'Huntington'.'NY'.'11743'.'40.87122'.'-73.42628'.
+'Suffolk','Islip Farmers' Market'.'State Route 27A and State Route 111'.'Islip'.'NY'.'11751'.'40.73028'.'-73.20731'.
+'Suffolk','Montauk Farmers' Market'.'742 Montauk Hwy'.'Montauk'.'NY'.'11954'.'41.03436'.'-71.94424'.
+'Suffolk','Patchogue Farmers' Market'.'Montauk Hwy and State Route 112'.'Patchogue'.'NY'.'11772'.'40.76602'.'-73.00689'.
+'Suffolk','Port Jefferson Farmers' Market'.'State Route 25A and State Route 112'.'Port Jefferson'.'NY'.'11776'.'40.93177'.'-73.05281'.
+'Suffolk','Riverhead Farmers' Market'.'Main St and Peconic Ave'.'Riverhead'.'NY'.'11901'.'40.91696'.'-72.66253'.
+'Suffolk','Rocky Point Farmers Market'.'Broadway and Prince Rd'.'Rocky Point'.'NY'.'11778'.'40.94927'.'-72.92391'.
+'Suffolk','Sag Harbor Farmers' Market'.'Bay St and Burke St'.'Sag Harbor'.'NY'.'11963'.'41.00106'.'-72.29134'.
+'Suffolk','Shiloh Community Farmers' Market'.'221 Merritt Ave'.'Wyandanch'.'NY'.'11798'.'40.75311'.'-73.36709'.
+'Suffolk','Tanger Outlets Farmers' Market'.'Grand Blvd and The Arches Circle'.'Deer Park'.'NY'.'11729'.'40.76169'.'-73.30335'.
+'Suffolk','Westhampton Beach Farmers' Market'.'85 Mill Rd'.'Westhampton Beach'.'NY'.'11978'.'40.81231'.'-72.6434'.
+'Sullivan','Bethel Woods Harvest Festival Farmers' Market'.'Hurd Rd and West Shore Rd'.'Bethel'.'NY'.'12783'.'41.70295'.'-74.88208'.
+'Sullivan','Callicoon Farmers' Market'.'Bridge St and Dorrer Dr'.'Callicoon'.'NY'.'12723'.'41.76634'.'-75.05897'.
+'Sullivan','Kauneonga Lake Farmers' Market'.'3594 Route 55'.'Kauneonga Lake'.'NY'.'12783'.'41.69385'.'-74.82344'.
+'Sullivan','Monticello Eat Healthy Farmers' Market'.'2 Pleasant Street'.'Monticello'.'NY'.'12701'.'41.65444'.'-74.68191'.
+'Sullivan','Rock Hill Farmers' Market'.'223 Rock Hill Drive'.'Rock Hill'.'NY'.'12775'.'41.62515'.'-74.59634'.
+'Tioga','Newark Valley Farmers' Market'.'9 Park Street'.'Newark Valley'.'NY'.'13811'.'42.22314'.'-76.18366'.
+'Tioga','Owego Farmers' Market'.'Main St and Central Ave'.'Owego'.'NY'.'13827'.'42.10324'.'-76.26314'.
+'Tioga','Waverly Farmers' Market'.'Pennsylvania Ave and Park Ave'.'Waverly'.'NY'.'14892'.'42.00483'.'-76.53661'.
+'Tompkins','Groton Farmers' Market'.'200 South St'.'Groton'.'NY'.'13073'.'42.58532'.'-76.36848'.
+'Tompkins','Ithaca Farmers' Market (Dewitt Park)'.'North Cayuga St and East Buffalo St'.'Ithaca'.'NY'.'14850'.'42.44131'.'-76.49911'.
+'Tompkins','Ithaca Farmers' Market (Steamboat)'.'Third St and Carpenter Cir'.'Ithaca'.'NY'.'14850'.'42.44931'.'-76.50746'.
+'Tompkins','Trumansburg Farmers' Market'.'State Route 96 and State Route 227'.'Trumansburg'.'NY'.'14886'.'42.54224'.'-76.66579'.
+'Ulster','Kingston Farmers' Market'.'Wall St and John St'.'Kingston'.'NY'.'12401'.'41.93383'.'-74.01969'.
+'Ulster','Kingston Midweek Satellite Farmers' Market'.'Cedar St and Broadway'.'Kingston'.'NY'.'12401'.'41.92919'.'-74.0036'.
+'Ulster','Rosendale Farmers' Market'.'1033 State Route 32'.'Rosendale'.'NY'.'12472'.'41.84223'.'-74.07571'.
+'Ulster','Saugerties Farmers' Market'.'115 Main St'.'Saugerties'.'NY'.'12477'.'42.07899'.'-73.94896'.
+'Ulster','Woodstock Farm Festival Farmers' Market'.'6 Maple Ln'.'Woodstock'.'NY'.'12498'.'42.04042'.'-74.11808'.
+'Warren','Glens Falls City Park Farmers' Market'.'Glens Falls City Park'.'Glens Falls'.'NY'.'12801'.'43.31137'.'-73.64461'.
+'Warren','Glens Falls Farmers' Market'.'25 South Street'.'Glens Falls'.'NY'.'12801'.'43.30993'.'-73.64698'.
+'Warren','Queensbury Farmers' Market'.'1043 State Route 9'.'Queensbury'.'NY'.'12804'.'43.34352'.'-73.68632'.
+'Warren','Share the Bounty Farmers' Market'.'3360 Route 343'.'Amenia'.'NY'.'12501'.'41.85035'.'-73.55065'.
+'Washington','Cambridge Farmers' Market'.'State Route 372 and Railroad Ave'.'Cambridge'.'NY'.'12816'.'43.02799'.'-73.381'.
+'Washington','Fort Edward Farmers' Market'.'359 Broadway'.'Fort Edward'.'NY'.'12828'.'43.28393'.'-73.58721'.
+'Washington','Greenwich Farmers' Market'.'70 Main Street'.'Greenwich'.'NY'.'12834'.'43.08931'.'-73.49854'.
+'Washington','Hudson Falls Farmers' Market'.'1161 Dix Ave'.'Hudson Falls'.'NY'.'12839'.'43.32024'.'-73.58262'.
+'Wayne','Lyons Farmers' Market'.'Church St and William St'.'Lyons'.'NY'.'14489'.'43.06336'.'-76.99243'.
+'Wayne','Macedon Farmers' Market'.'32 Main St'.'Macedon'.'NY'.'14502'.'43.06681'.'-77.30581'.
+'Wayne','Newark Farmers' Market'.'Church St and South Main St'.'Newark'.'NY'.'14513'.'43.04468'.'-77.09522'.
+'Wayne','Sodus Farmers' Market'.'58 West Main St'.'Sodus'.'NY'.'14551'.'43.23615'.'-77.06587'.
+'Westchester','Bronxville Farmers' Market'.'Stone Pl and Paxton Ave'.'Bronxville'.'NY'.'10708'.'40.93999'.'-73.83784'.
+'Westchester','Croton Farmers' Market'.'Municipal Pl and Riverside Ave'.'Croton-on-Hudson'.'NY'.'10520'.'41.20214'.'-73.88719'.
+'Westchester','Dobbs Ferry Farmers' Market'.'Cedar St and Main St'.'Dobbs Ferry'.'NY'.'10522'.'41.01628'.'-73.87365'.
+'Westchester','Hartsdale Farmers' Market'.'East Hartsdale Ave and Fenimore Rd'.'Hartsdale'.'NY'.'10530'.'41.01072'.'-73.79657'.
+'Westchester','Hudson Valley Hospital Farmers' Market'.'1980 Crompond Rd.'.'Cortland'.'NY'.'10567'.'41.29265'.'-73.89242'.
+'Westchester','Larchmont Farmers' Market'.'Chatsworth Ave and North Ave'.'Larchmont'.'NY'.'10538'.'40.93321'.'-73.75961'.
+'Westchester','Muscoot Farmers' Market'.'State Route 100 and Muscoot Ln'.'Katonah'.'NY'.'10536'.'41.27312'.'-73.71158'.
+'Westchester','New Rochelle Farmers' Market'.'Hugenot St and Lawton St'.'New Rochelle'.'NY'.'10801'.'40.9108'.'-73.78301'.
+'Westchester','Ossining Farmers' Market'.'Main St and Spring St'.'Ossining'.'NY'.'10562'.'41.16104'.'-73.86352'.
+'Westchester','Peekskill Farmers' Market'.'Main St and Bank St'.'Peekskill'.'NY'.'10566'.'41.29179'.'-73.91906'.
+'Westchester','Pleasantville Farmers' Market'.'Manville Rd and Wheeler Ave'.'Pleasantville'.'NY'.'10570'.'41.13523'.'-73.79219'.
+'Westchester','Ridge Hill Farmers' Market'.'Market Street'.'Yonkers'.'NY'.'10710'.'40.96356'.'-73.85622'.
+'Westchester','Rye Farmers' Market'.'Theodore Fremd Ave and Purchase St'.'Rye'.'NY'.'10580'.'40.98485'.'-73.68465'.
+'Westchester','Saint John's Church - Yonkers Farmers' Market'.'1 Hudson St'.'Yonkers'.'NY'.'10701'.'40.93364'.'-73.89879'.
+'Westchester','Saw Mill River Farmers' Market'.'Nepperhan St and Market Place'.'Yonkers'.'NY'.'10705'.'40.93523'.'-73.90136'.
+'Westchester','Tarrytown Farmers' Market'.'US Route 9 and College Ave'.'Tarrytown'.'NY'.'10591'.'41.08242'.'-73.85854'.
+'Westchester','White Plains (International) Farmers' Market'.'125 Court St'.'White Plains'.'NY'.'10601'.'41.02904'.'-73.76627'.
+'Wyoming','Perry Farmers' Market'.'Main St and Borden Ave'.'Perry'.'NY'.'14530'.'42.7184'.'-78.00206'.
+'Wyoming','Warsaw Farmers' Market'.'2456-2444 New York State Bicycle Route 19'.'Warsaw'.'NY'.'14569'.'42.76344'.'-78.13047'.
+'Yates','Branchport Farmers' Market'.'3686 Rte 54A'.'Branchport'.'NY'.'14418'.'42.59953'.'-77.15125'.
+'Yates','The Windmill Farmers' Market'.'3900 State Route 14A'.'Penn Yan'.'NY'.'14527'.'42.57687'.'-77.03609'.
+'Yates','Yates Co. Co-op Farm & Craft Market'.'Main St and Elm St'.'Penn Yan'.'NY'.'14527'.'42.66095'.'-77.05365'.

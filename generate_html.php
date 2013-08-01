@@ -1,6 +1,7 @@
 <?php
 	$file = fopen("nyc/Farmers_Markets_in_New_York_State.csv", "r");
 	$counter = -1; $pagenum = 0; $f;
+
 	while (($contents = fgetcsv($file)) != FALSE) {
 		$counter++;
 		if ($counter == 0) {
@@ -23,17 +24,16 @@
 			$connection = fopen("page" . $pagenum . ".html", "w");
 			fwrite($connection, "<html>\n<head>\n" . 
 				"    <title>Farmer Markets in New York</title>\n" .
-				"        <link href=\"style.css\">" .
-				"        <script src=\"script.js\" type=\"javascript\"></script>" .
+				"        <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\">" .
 				"</head>\n<body>\n" .
 				"<h1>Farmer Markets in New York</h1>\n" . 
-				"    <table border=\"1\">\n");
+				"    <table class=\"datatable\">\n");
 			return $connection;
 	}
 
 	function pageendwrite($f) {
 		fwrite($f, "    </table>\n" .
-			"<a href=\"page1.html\">1</a> " .
+			"    <a href=\"page1.html\">1</a> " .
 			"<a href=\"page2.html\">2</a> " .
 			"<a href=\"page3.html\">3</a> " .
 			"<a href=\"page4.html\">4</a> " .
