@@ -33,12 +33,13 @@
 
 	function pageendwrite($f) {
 		fwrite($f, "    </table>\n" .
-			"    <a href=\"page1.html\">1</a> " .
-			"<a href=\"page2.html\">2</a> " .
-			"<a href=\"page3.html\">3</a> " .
-			"<a href=\"page4.html\">4</a> " .
-			"<a href=\"page5.html\">5</a> " .
-			"</body>\n</html>");
+			" <ul id=\"pages\">".
+			"    <li><a href=\"page1.html\">1</a></li> " .
+			"<li><a href=\"page2.html\">2</a></li> " .
+			"<li><a href=\"page3.html\">3</a></li> " .
+			"<li><a href=\"page4.html\">4</a></li> " .
+			"<li><a href=\"page5.html\">5</a></li> " .
+			"</ul></body>\n</html>");
 	}
 
 	function writerow($c, $file, $data) {
