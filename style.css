@@ -7,7 +7,8 @@ td {
 }
 
 h1 {
-	margin:0px;
+	float: left;
+	margin: 0px 50px 0px 0px;
 	padding:0px;
 }
 
@@ -16,11 +17,11 @@ a {
 }
 
 ul {
-	list-style-type: none;
-	padding: 0px;
+	list-style-type:none;
+	padding:0px;
 }
 
 li {
 	float: left;
-	margin-right: 5px;
+	margin-right:5px;
 }

@@ -27,19 +27,20 @@
 				"        <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\">" .
 				"</head>\n<body>\n" .
 				"<h1>Farmer Markets in New York</h1>\n" . 
+				"<ul id=\"pages\">\n".
+				"<li><a href=\"page1.html\">1</a></li> " .
+				"<li><a href=\"page2.html\">2</a></li> " .
+				"<li><a href=\"page3.html\">3</a></li> " .
+				"<li><a href=\"page4.html\">4</a></li> " .
+				"<li><a href=\"page5.html\">5</a></li> " .
+				"</ul>\n" .
 				"    <table class=\"datatable\">\n");
 			return $connection;
 	}
 
 	function pageendwrite($f) {
 		fwrite($f, "    </table>\n" .
-			" <ul id=\"pages\">".
-			"    <li><a href=\"page1.html\">1</a></li> " .
-			"<li><a href=\"page2.html\">2</a></li> " .
-			"<li><a href=\"page3.html\">3</a></li> " .
-			"<li><a href=\"page4.html\">4</a></li> " .
-			"<li><a href=\"page5.html\">5</a></li> " .
-			"</ul></body>\n</html>");
+			"</body>\n</html>");
 	}
 
 	function writerow($c, $file, $data) {
