@@ -2,7 +2,6 @@
  
 import scraperwiki
 import requests
-
 from bs4 import BeautifulSoup
  
 base_url = 'http://frankbi.com/aaja/farmermarkets/'
@@ -23,8 +22,7 @@ def scrape_page(page):
     print page
     html = requests.get(page)
     soup = BeautifulSoup(html.content, "html.parser")
-        
-        
+
     table = soup.findAll('table')
     rows = table[0].findAll('tr')
 
@@ -43,15 +41,8 @@ def scrape_page(page):
             'lat' : cells[6].get_text(),
             'lon' : cells[7].get_text()
         }
-        # print data
-        data_array.append(data)
 
+        scraperwiki.sql.save(data.keys(), data)
 
 get_pages()
 [scrape_page(base_url + page) for page in page_array]
-print len(data_array)
-
-# Saving data:
-# unique_keys = [ 'id' ]
-# data = { 'id':12, 'name':'violet', 'age':7 }
-# scraperwiki.sql.save(unique_keys, data)
