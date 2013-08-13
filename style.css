@@ -1,5 +1,6 @@
 table, td {
 	border:1px black solid;
+	clear: both;
 }
 
 td {
