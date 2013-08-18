@@ -1,7 +1,7 @@
 AAJA-Scraper
 ============
 
-Files for AAJA National Convention NYC 2013 session [Webscraping 101](http://sched.co/18F13ss)
+Files for AAJA National Convention NYC 2013 session [Webscraping 101](http://sched.co/18F13ss), hosted by [Frank Bi](https://github.com/frankbi), [Dan Hill](https://github.com/danhillreports) and [Albert Sun](https://github.com/albertsun/).
 
 Thursday, August 22
 10:00 a.m. - 11:50 a.m.
