@@ -19,7 +19,6 @@ def get_pages():
         page_array.append(page.get('href'))
 
 def scrape_page(page):
-    print page
     html = requests.get(page)
     soup = BeautifulSoup(html.content, "html.parser")
 
