@@ -39,7 +39,7 @@ import requests
 from bs4 import BeautifulSoup
 ```
 
-Now we're ready to get our first page to scrape. We're scraping from Frank's [website](http://frankbi.com/aaja/farmermarkets/), so let's make a variable to store the URL to Frank's page.
+Now we're ready to get our first page to scrape. We're scraping from Frank's [website](http://frankbi.com/aaja/farmermarkets/), so let's make a variable called `base_url` to store the URL to Frank's page.
 
 ```python
 base_url = 'http://frankbi.com/aaja/farmermarkets/page1.html'
@@ -58,15 +58,15 @@ This uses the requests library to get the HTML from the base_url variable and "s
 table = soup.findAll('table')
 ```
 
-The findAll command returns a list with everything that matches what you want to find, in this case `<table>` tags inside the soupified page. We set the result of the findAll command to a variable, so now the variable "table" is storing everything on the page in a `<table>` tag. That means it contains the `<td>` tags that contain the text data we want to scrape, nested in `<tr>` row tags. Beautiful Soup lets us select within the "table" variable, so we can grab all those `<tr>` tags and put them in another variable:
+The `findAll` command returns a list with everything that matches what you want to find, in this case `<table>` tags inside the soupified page. We set the result of the `findAll` command to a variable, so now the variable `table` is storing everything on the page in a `<table>` tag. That means it contains the `<td>` tags that contain the text data we want to scrape, nested in `<tr>` row tags. Beautiful Soup lets us select within the `table` variable, so we can grab all those `<tr>` tags and put them in another variable:
 
 ```python
 rows = table[0].findAll("tr")
 ```
 
-Recall findAll returns a list of the elements that match your query, so we call findAll on the first element of the list in the "table" variable, table[0].
+Recall `findAll` returns a list of the elements that match your query, so we call `findAll` on the first element of the list in the `table` variable, table[0].
 
-Likewise, now the "rows" variable is a list with all the `<tr>` rows and the `<td>` tags inside them. We need to go through each of the rows and get the text in the `<td>`s, so we will use a python loop. Also, we need to skip the `<th>` tags because all the data we really want are in `<td>` tags.
+Likewise, now the `rows` variable is a list with all the `<tr>` rows and the `<td>` tags inside them. We need to go through each of the rows and get the text in the `<td>`s, so we will use a python loop. Also, we need to skip the `<th>` tags because all the data we really want are in `<td>` tags.
 
 ```python
 if len(soup.findAll('th')) > 0:
@@ -87,17 +87,17 @@ for row in rows:
         print data
 ```
 
-The "cells" variable holds a list of all the `<td>` tags in the current row, and we index into "cells" to get the text we want by calling the BeautifulSoup function get_text(). Now we're scraping!
+The `cells` variable holds a list of all the `<td>` tags in the current row, and we index into `cells` to get the text we want by calling the BeautifulSoup function `get_text()`. Now we're scraping!
 
 ##Part 4: Scrape all the pages!
 
-We can scrape text out of the HTML tables on a page and now we need to scrape all five of the pages on Frank's site. As we discussed in part 2, we need to get the links out of the `<ul>` tag with the "pages" id and visit all those links. Let's start by initializing a list called page_array at the top of our code that will hold the links to each of the pages.
+We can scrape text out of the HTML tables on a page and now we need to scrape all five of the pages on Frank's site. As we discussed in part 2, we need to get the links out of the `<ul>` tag with the "pages" id and visit all those links. Let's start by initializing a list called `page_array` just below our `base_url` variable that will hold the links to each of the pages.
 
 ```python
 page_array = []
 ```
 
-Now let's grab that `<ul>` with id "pages" and loop through all the `<a>` tags inside it to grab their links and append them to the "page_array" list:
+Now let's grab that `<ul>` with id "pages" and loop through all the `<a>` tags inside it to grab their links and append them to the `page_array` list. Write the following code below your `page_array` variable.:
 
 ```python
 page_list = soup.findAll(id='pages')
@@ -107,7 +107,11 @@ for page in pages:
     page_array.append(page.get('href'))
 ```
 
-Now "page_array" holds links, or the suffixes (remember the links are in the form "/page1.html", "/page2.html", etc.). We need to go to each page by concatenating the "base_url" with these link suffixes and call the code for scraping HTML table.
+Now `page_array` holds links, or the suffixes (remember the links are in the form "/page1.html", "/page2.html", etc.). We need to go to each page by concatenating the `base_url` with these link suffixes and call the code for scraping HTML table. This means we have to change our `base_url` variable:
+
+```python
+base_url = 'http://frankbi.com/aaja/farmermarkets/'
+```
 
 Let's take a step back and make some functions so we can reuse the code we've written for different pages. 
 
@@ -146,7 +150,7 @@ def scrape_page(page):
         }
 ```
 
-Now get_pages() is the function that fills the "page_array" variable, and scrape_page() is a function that takes a URL and scrapes the table on that page. We have to run get_pages() first to fill "page_array", then loop through "page_array" to call scrape_page() on the links. Since "page_array" contains link suffixes, we have to concatenate "base_url" with each link in "page_array". Finally, we use a python list comprehension to loop the links, because we fancy like that. Add these lines to the bottom of your scraper code:
+Now `get_pages()` is the function that fills the `page_array` variable, and `scrape_page()` is a function that takes a URL and scrapes the table on that page. We have to run `get_pages()` first to fill `page_array`, then loop through `page_array` to call `scrape_page()` on the links. Since `page_array` contains link suffixes, we have to concatenate `base_url` with each link in `page_array`. Finally, we use a python list comprehension to loop the links, because we fancy like that. Add these lines to the bottom of your scraper code:
 
 ```python
 get_pages()
@@ -157,7 +161,7 @@ get_pages()
 
 We almost have structured data! Right now our scraper is just grabbing text and printing it, but we want to save the data we scraped and download it in a spreadsheet. ScraperWiki let's us save data to their website and download that data in different formats.
 
-We've been saving our scraped data to a variable called "data", which is a dictionary that holds the scraped text as values to its keys. ScraperWiki let's us save that data to a database by unpacking that dictionary variable. Add this line beneath the "data" variable on the same level of indentation:
+We've been saving our scraped data to a variable called `data`, which is a dictionary that holds the scraped text as values to its keys. ScraperWiki let's us save that data to a database by unpacking that dictionary variable. Add this line beneath the `data` variable on the same level of indentation:
 
 ```python
 scraperwiki.sql.save(data.keys(), data)
