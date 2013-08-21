@@ -157,7 +157,7 @@ get_pages()
 [scrape_page(base_url + page) for page in page_array]
 ```
 
-##Part 5: Get that data
+##Part 5: [Get that data](http://www.youtube.com/watch?v=Sk0PSn4VuAE)
 
 We almost have structured data! Right now our scraper is just grabbing text and printing it, but we want to save the data we scraped and download it in a spreadsheet. ScraperWiki let's us save data to their website and download that data in different formats.
 
