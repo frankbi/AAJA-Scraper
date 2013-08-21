@@ -34,9 +34,9 @@ ScraperWiki lets you use different code libraries to scrape, but we're going to 
 ```python
 #!/usr/bin/env python
  
-*import scraperwiki
+import scraperwiki
 import requests
-from bs4 import BeautifulSoup*
+from bs4 import BeautifulSoup
 ```
 
 Now we're ready to get our first page to scrape. We're scraping from Frank's [website](http://frankbi.com/aaja/farmermarkets/), so let's make a variable to store the URL to Frank's page.
