@@ -1,6 +1,6 @@
 #Webscraping 101
 
-A step-by-step guide for AAJA National Convention NYC 2013 session [Webscraping 101](http://sched.co/18F13ss), hosted by [Frank Bi](https://github.com/frankbi), [Dan Hill](https://github.com/danhillreports) and [Albert Sun](https://github.com/albertsun/). Follow this tutorial and we guarantee you will take home a spreadsheet of farmer's markets 
+A step-by-step guide for the [2013 AAJA National Convention](http://www.aaja.org/category/convention/new-york-2013/) session [Webscraping 101](http://sched.co/18F13ss), hosted by [Frank Bi](https://github.com/frankbi), [Dan Hill](https://github.com/danhillreports) and [Albert Sun](https://github.com/albertsun/). Follow this tutorial and we guarantee you will take home a spreadsheet of farmer's markets. Yay structured data!
 
 You can see the finished scraper code we'll be writing [here](https://github.com/frankbi/AAJA-Scraper/blob/master/scraper.py) or with extra comments [here](https://github.com/frankbi/AAJA-Scraper/blob/master/comments_scraper.py).
 
@@ -173,8 +173,14 @@ Running your scraper code now will save data to ScraperWiki. We can look at that
 
 You did it, structured data is yours to analayze!
 
-##References
+##Resources
 
-ScraperWiki is a handy service, but there are lots of tools, libraries and techniques for scraping. Some open source tools built by journalists include [Upton](http://www.propublica.org/nerds/item/upton-a-web-scraping-framework) and [Haystax](https://github.com/tilgovi/haystax).
+ScraperWiki is a handy service, but there are lots of tools and techniques for scraping. Some open source tools built by journalists include [Upton](http://www.propublica.org/nerds/item/upton-a-web-scraping-framework) and [Haystax](https://github.com/tilgovi/haystax).
+
+*[Beautiful Soup documentation](http://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+*Python data structures (lists and list comprehensions) [tutorial](http://docs.python.org/2/tutorial/datastructures.html)
+*ScraperWiki [first scraper tutorial](https://classic.scraperwiki.com/docs/python/python_intro_tutorial/) and [references](https://scraperwiki.com/help)
+*[Meet Your Web Inspector](http://ruby.bastardsbook.com/chapters/web-inspecting-html/) and [Intro to Web Scraping](http://ruby.bastardsbook.com/chapters/web-scraping/) from [Dan Nguyen](https://github.com/dannguyen)'s [Bastard's Book of Ruby](http://ruby.bastardsbook.com/)
+*[IRE/NICAR listserv](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/)
 
 [Always be scrapin!](http://www.youtube.com/watch?v=hQGLNPJ9VCE)
