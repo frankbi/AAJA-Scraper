@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
  
 base_url = 'http://frankbi.com/aaja/farmermarkets/'
 page_array = []
-data_array = []
 
 def get_pages():
     html = requests.get(base_url+'page5.html')
