@@ -1,0 +1,300 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body{
+  color:#444;
+  font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman',
+              "Hiragino Sans GB", "STXihei", "微软雅黑", serif;
+  font-size:12px;
+  line-height:1.5em;
+  background:#fefefe;
+  width: 45em;
+  margin: 10px auto;
+  padding: 1em;
+  outline: 1300px solid #FAFAFA;
+}
+
+a{ color: #0645ad; text-decoration:none;}
+a:visited{ color: #0b0080; }
+a:hover{ color: #06e; }
+a:active{ color:#faa700; }
+a:focus{ outline: thin dotted; }
+a:hover, a:active{ outline: 0; }
+
+span.backtick {
+  border:1px solid #EAEAEA;
+  border-radius:3px;
+  background:#F8F8F8;
+  padding:0 3px 0 3px;
+}
+
+::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
+::selection{background:rgba(255,255,0,0.3);color:#000}
+
+a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
+a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
+
+p{
+margin:1em 0;
+}
+
+img{
+max-width:100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight:normal;
+color:#111;
+line-height:1em;
+}
+h4,h5,h6{ font-weight: bold; }
+h1{ font-size:2.5em; }
+h2{ font-size:2em; border-bottom:1px solid silver; padding-bottom: 5px; }
+h3{ font-size:1.5em; }
+h4{ font-size:1.2em; }
+h5{ font-size:1em; }
+h6{ font-size:0.9em; }
+
+blockquote{
+color:#666666;
+margin:0;
+padding-left: 3em;
+border-left: 0.5em #EEE solid;
+}
+hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
+
+
+pre , code, kbd, samp { 
+  color: #000; 
+  font-family: monospace; 
+  font-size: 0.88em; 
+  border-radius:3px;
+  background-color: #F8F8F8;
+  border: 1px solid #CCC; 
+}
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 5px 12px;}
+pre code { border: 0px !important; padding: 0;}
+code { padding: 0 3px 0 3px; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
+li p:last-child { margin:0 }
+dd { margin: 0 0 0 2em; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+@media only screen and (min-width: 480px) {
+body{font-size:14px;}
+}
+
+@media only screen and (min-width: 768px) {
+body{font-size:16px;}
+}
+
+@media print {
+  * { background: transparent !important; color: black !important; filter:none !important; -ms-filter: none !important; }
+  body{font-size:12pt; max-width:100%; outline:none;}
+  a, a:visited { text-decoration: underline; }
+  hr { height: 1px; border:0; border-bottom:1px solid black; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  pre, blockquote { border: 1px solid #999; padding-right: 1em; page-break-inside: avoid; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page :left { margin: 15mm 20mm 15mm 10mm; }
+  @page :right { margin: 15mm 10mm 15mm 20mm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+</style></head><body><p>#Webscraping 101</p>
+
+<p>A step-by-step guide for the <a href="http://www.aaja.org/category/convention/new-york-2013/">2013 AAJA National Convention</a> session <a href="http://sched.co/18F13ss">Webscraping 101</a>, hosted by <a href="https://github.com/frankbi">Frank Bi</a>, <a href="https://github.com/danhillreports">Dan Hill</a> and <a href="https://github.com/albertsun/">Albert Sun</a>. Follow this tutorial and we guarantee you will take home a spreadsheet of farmer's markets. Yay structured data!</p>
+
+<p>You can see the finished scraper code we'll be writing <a href="https://github.com/frankbi/AAJA-Scraper/blob/master/scraper.py">here</a> or with extra comments <a href="https://github.com/frankbi/AAJA-Scraper/blob/master/comments_scraper.py">here</a>.</p>
+
+<p>##Part 1: Getting started with ScraperWiki</p>
+
+<p>There are lots of ways to scrape, but we'll use <a href="https://scraperwiki.com/">ScraperWiki</a> - a service that lets you write and run scrapers and save data on its website - for this workshop.</p>
+
+<p>Sign up for an account on the ScraperWiki <a href="https://scraperwiki.com/">website</a> and select "Create a new dataset." Then select "Code in your broweser" and choose Python as your language.</p>
+
+<p><img src="file:///Users/204377/Desktop/AAJA-Scraper/images/tutorial/new.png" alt="Code in your browser" /></p>
+
+<p><img src="file:///Users/204377/Desktop/AAJA-Scraper/images/tutorial/language.png" alt="Choose Python" /></p>
+
+<p>##Part 2: Always be inspectin'</p>
+
+<p>Before we start scraping, we need to study the HTML on our pages to determine our gampeplan for scraping the data. In particular, there are two big questions we need to answer:</p>
+
+<p>How do we scrape data out of a page?
+How do we proceed to other pages?</p>
+
+<p>Let's take a look at our website, Frank's list of <a href="http://frankbi.com/aaja/farmermarkets/">New York City Farmers' Markets</a>. Open your browser's web inspector or view the page source. You'll see the data we want is kept in a big HTML table inside <code>&lt;td&gt;</code> tags. So, in order to scrape data out of the page, we'll need to get the text out of all the <code>&lt;td&gt;</code> tags.</p>
+
+<p>Now check out the links at the top of the page. You'll see the links are inside a <code>&lt;ul&gt;</code> tag with the id "pages". The links take you to pages with URL endings: /page1.html, /page2.html, /page3.html. This tells us we'll need to collect all those links from the "pages" <code>&lt;ul&gt;</code> and scrape the tables on each of those links. Plan! Now let's start scraping.</p>
+
+<p>##Part 3: Scraping your first page</p>
+
+<p>We'll start by attacking the first part of our gameplan: scraping a single page by getting text out of <code>&lt;td&gt;</code> tags in the <code>&lt;table&gt;</code>.</p>
+
+<p>ScraperWiki lets you use different code libraries to scrape, but we're going to use the Python libraries <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a>. Import the BeautifulSoup library to our scraper:</p>
+
+<pre><code>#!/usr/bin/env python
+
+import scraperwiki
+import requests
+from bs4 import BeautifulSoup
+</code></pre>
+
+<p>Now we're ready to get our first page to scrape. We're scraping from Frank's <a href="http://frankbi.com/aaja/farmermarkets/">website</a>, so let's make a variable called <code>base_url</code> to store the URL to Frank's page.</p>
+
+<pre><code>base_url = 'http://frankbi.com/aaja/farmermarkets/page1.html'
+</code></pre>
+
+<p>We scrape a page by getting requesting the page and "soupifying" it with BeautifulSoup. In other words:</p>
+
+<pre><code>html = requests.get(base_url)
+soup = BeautifulSoup(html.content, "html.parser")
+</code></pre>
+
+<p>This uses the requests library to get the HTML from the base_url variable and "soupifies" the HTML with BeautifulSoup, which lets us use commands from the BeautifulSoup library to select content. We can select the big <code>&lt;table&gt;</code> tag like this:</p>
+
+<pre><code>table = soup.findAll('table')
+</code></pre>
+
+<p>The <code>findAll</code> command returns a list with everything that matches what you want to find, in this case <code>&lt;table&gt;</code> tags inside the soupified page. We set the result of the <code>findAll</code> command to a variable, so now the variable <code>table</code> is storing everything on the page in a <code>&lt;table&gt;</code> tag. That means it contains the <code>&lt;td&gt;</code> tags that contain the text data we want to scrape, nested in <code>&lt;tr&gt;</code> row tags. Beautiful Soup lets us select within the <code>table</code> variable, so we can grab all those <code>&lt;tr&gt;</code> tags and put them in another variable:</p>
+
+<pre><code>rows = table[0].findAll("tr")
+</code></pre>
+
+<p>Recall <code>findAll</code> returns a list of the elements that match your query, so we call <code>findAll</code> on the first element of the list in the <code>table</code> variable, table[0].</p>
+
+<p>Likewise, now the <code>rows</code> variable is a list with all the <code>&lt;tr&gt;</code> rows and the <code>&lt;td&gt;</code> tags inside them. We need to go through each of the rows and get the text in the <code>&lt;td&gt;</code>s, so we will use a python loop. Also, we need to skip the <code>&lt;th&gt;</code> tags because all the data we really want are in <code>&lt;td&gt;</code> tags.</p>
+
+<pre><code>if len(soup.findAll('th')) &gt; 0:
+        rows = rows[1:]
+
+for row in rows:
+        cells = row.findAll('td')
+        data = {
+            'county' : cells[0].get_text(),
+            'market' : cells[1].get_text(),
+            'address' : cells[2].get_text(),
+            'city' : cells[3].get_text(),
+            'state' : cells[4].get_text(),
+            'zip_code' : cells[5].get_text(),
+            'lat' : cells[6].get_text(),
+            'lon' : cells[7].get_text()
+        }
+        print data
+</code></pre>
+
+<p>The <code>cells</code> variable holds a list of all the <code>&lt;td&gt;</code> tags in the current row, and we index into <code>cells</code> to get the text we want by calling the BeautifulSoup function <code>get_text()</code>. Now we're scraping!</p>
+
+<p>##Part 4: Scrape all the pages!</p>
+
+<p>We can scrape text out of the HTML tables on a page and now we need to scrape all five of the pages on Frank's site. As we discussed in part 2, we need to get the links out of the <code>&lt;ul&gt;</code> tag with the "pages" id and visit all those links. Let's start by initializing a list called <code>page_array</code> just below our <code>base_url</code> variable that will hold the links to each of the pages.</p>
+
+<pre><code>page_array = []
+</code></pre>
+
+<p>Now let's grab that <code>&lt;ul&gt;</code> with id "pages" and loop through all the <code>&lt;a&gt;</code> tags inside it to grab their links and append them to the <code>page_array</code> list. Write the following code below your <code>page_array</code> variable.:</p>
+
+<pre><code>page_list = soup.findAll(id='pages')
+pages = page_list[0].findAll('a')
+
+for page in pages:
+    page_array.append(page.get('href'))
+</code></pre>
+
+<p>Now <code>page_array</code> holds links, or the suffixes (remember the links are in the form "/page1.html", "/page2.html", etc.). We need to go to each page by concatenating the <code>base_url</code> with these link suffixes and call the code for scraping HTML table. This means we have to change our <code>base_url</code> variable:</p>
+
+<pre><code>base_url = 'http://frankbi.com/aaja/farmermarkets/'
+</code></pre>
+
+<p>Let's take a step back and make some functions so we can reuse the code we've written for different pages. </p>
+
+<pre><code>def get_pages():
+    html = requests.get(base_url+'page5.html')
+    soup = BeautifulSoup(html.content, "html.parser")
+
+    page_list = soup.findAll(id='pages')
+    pages = page_list[0].findAll('a')
+
+    for page in pages:
+        page_array.append(page.get('href'))
+
+def scrape_page(page):
+    html = requests.get(page)
+    soup = BeautifulSoup(html.content, "html.parser")
+
+    table = soup.findAll('table')
+    rows = table[0].findAll('tr')
+
+    if len(soup.findAll('th')) &gt; 0:
+        rows = rows[1:]
+
+    for row in rows:
+        cells = row.findAll('td')
+        data = {
+            'county' : cells[0].get_text(),
+            'market' : cells[1].get_text(),
+            'address' : cells[2].get_text(),
+            'city' : cells[3].get_text(),
+            'state' : cells[4].get_text(),
+            'zip_code' : cells[5].get_text(),
+            'lat' : cells[6].get_text(),
+            'lon' : cells[7].get_text()
+        }
+</code></pre>
+
+<p>Now <code>get_pages()</code> is the function that fills the <code>page_array</code> variable, and <code>scrape_page()</code> is a function that takes a URL and scrapes the table on that page. We have to run <code>get_pages()</code> first to fill <code>page_array</code>, then loop through <code>page_array</code> to call <code>scrape_page()</code> on the links. Since <code>page_array</code> contains link suffixes, we have to concatenate <code>base_url</code> with each link in <code>page_array</code>. Finally, we use a python list comprehension to loop the links, because we fancy like that. Add these lines to the bottom of your scraper code:</p>
+
+<pre><code>get_pages()
+[scrape_page(base_url + page) for page in page_array]
+</code></pre>
+
+<p>##Part 5: <a href="http://www.youtube.com/watch?v=Sk0PSn4VuAE">Get that data</a></p>
+
+<p>We almost have structured data! Right now our scraper is just grabbing text and printing it, but we want to save the data we scraped and download it in a spreadsheet. ScraperWiki let's us save data to their website and download that data in different formats.</p>
+
+<p>We've been saving our scraped data to a variable called <code>data</code>, which is a dictionary that holds the scraped text as values to its keys. ScraperWiki let's us save that data to a database by unpacking that dictionary variable. Add this line beneath the <code>data</code> variable on the same level of indentation:</p>
+
+<pre><code>scraperwiki.sql.save(data.keys(), data)
+</code></pre>
+
+<p>Running your scraper code now will save data to ScraperWiki. We can look at that data in a table on the ScraperWiki site or download the data as a spreadsheet.</p>
+
+<p><img src="file:///Users/204377/Desktop/AAJA-Scraper/images/tutorial/tables.png" alt="Download your data" /></p>
+
+<p>You did it, structured data is yours to analayze!</p>
+
+<p>##Resources</p>
+
+<p>ScraperWiki is a handy service, but there are lots of tools and techniques for scraping. Some open source tools built by journalists include <a href="http://www.propublica.org/nerds/item/upton-a-web-scraping-framework">Upton</a> and <a href="https://github.com/tilgovi/haystax">Haystax</a>.</p>
+
+<ul>
+<li><a href="http://www.crummy.com/software/BeautifulSoup/bs4/doc/">Beautiful Soup documentation</a></li>
+<li>Python data structures (lists and list comprehensions) <a href="http://docs.python.org/2/tutorial/datastructures.html">tutorial</a></li>
+<li>ScraperWiki <a href="https://classic.scraperwiki.com/docs/python/python_intro_tutorial/">first scraper tutorial</a> and <a href="https://scraperwiki.com/help">references</a></li>
+<li><a href="https://dl.dropboxusercontent.com/u/13504438/aaja_coding_2013/index.html#/">Practical HTML &amp; CSS for Journalists</a> from <a href="https://twitter.com/giratikanon">Tom</a> and <a href="https://twitter.com/sisiwei">Sisi</a>'s AAJA workshop</li>
+<li><a href="http://ruby.bastardsbook.com/chapters/web-inspecting-html/">Meet Your Web Inspector</a> and <a href="http://ruby.bastardsbook.com/chapters/web-scraping/">Intro to Web Scraping</a> from <a href="https://github.com/dannguyen">Dan Nguyen</a>'s <a href="http://ruby.bastardsbook.com/">Bastard's Book of Ruby</a></li>
+<li><a href="http://www.ire.org/resource-center/listservs/subscribe-nicar-l/">IRE/NICAR listserv</a></li>
+</ul>
+
+<p><a href="http://www.youtube.com/watch?v=hQGLNPJ9VCE">Always be scrapin!</a></p>
+</body></html>
