@@ -117,7 +117,7 @@ Let's take a step back and make some functions so we can reuse the code we've wr
 
 ```python
 def get_pages():
-    html = requests.get(base_url+'page5.html')
+    html = requests.get(base_url)
     soup = BeautifulSoup(html.content, "html.parser")
     
     page_list = soup.findAll(id='pages')
