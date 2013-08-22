@@ -120,13 +120,13 @@ body{font-size:16px;}
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
-</style></head><body><p>#Webscraping 101</p>
+</style></head><body><h1 id="webscraping-101">Webscraping 101</h1>
 
 <p>A step-by-step guide for the <a href="http://www.aaja.org/category/convention/new-york-2013/">2013 AAJA National Convention</a> session <a href="http://sched.co/18F13ss">Webscraping 101</a>, hosted by <a href="https://github.com/frankbi">Frank Bi</a>, <a href="https://github.com/danhillreports">Dan Hill</a> and <a href="https://github.com/albertsun/">Albert Sun</a>. Follow this tutorial and we guarantee you will take home a spreadsheet of farmer's markets. Yay structured data!</p>
 
 <p>You can see the finished scraper code we'll be writing <a href="https://github.com/frankbi/AAJA-Scraper/blob/master/scraper.py">here</a> or with extra comments <a href="https://github.com/frankbi/AAJA-Scraper/blob/master/comments_scraper.py">here</a>.</p>
 
-<p>##Part 1: Getting started with ScraperWiki</p>
+<h2 id="part-1-getting-started-with-scraperwiki">Part 1: Getting started with ScraperWiki</h2>
 
 <p>There are lots of ways to scrape, but we'll use <a href="https://scraperwiki.com/">ScraperWiki</a> - a service that lets you write and run scrapers and save data on its website - for this workshop.</p>
 
@@ -136,7 +136,7 @@ body{font-size:16px;}
 
 <p><img src="file:///Users/204377/Desktop/AAJA-Scraper/images/tutorial/language.png" alt="Choose Python" /></p>
 
-<p>##Part 2: Always be inspectin'</p>
+<h2 id="part-2-always-be-inspectin">Part 2: Always be inspectin'</h2>
 
 <p>Before we start scraping, we need to study the HTML on our pages to determine our gampeplan for scraping the data. In particular, there are two big questions we need to answer:</p>
 
@@ -147,7 +147,7 @@ How do we proceed to other pages?</p>
 
 <p>Now check out the links at the top of the page. You'll see the links are inside a <code>&lt;ul&gt;</code> tag with the id "pages". The links take you to pages with URL endings: /page1.html, /page2.html, /page3.html. This tells us we'll need to collect all those links from the "pages" <code>&lt;ul&gt;</code> and scrape the tables on each of those links. Plan! Now let's start scraping.</p>
 
-<p>##Part 3: Scraping your first page</p>
+<h2 id="part-3-scraping-your-first-page">Part 3: Scraping your first page</h2>
 
 <p>We'll start by attacking the first part of our gameplan: scraping a single page by getting text out of <code>&lt;td&gt;</code> tags in the <code>&lt;table&gt;</code>.</p>
 
@@ -205,7 +205,7 @@ for row in rows:
 
 <p>The <code>cells</code> variable holds a list of all the <code>&lt;td&gt;</code> tags in the current row, and we index into <code>cells</code> to get the text we want by calling the BeautifulSoup function <code>get_text()</code>. Now we're scraping!</p>
 
-<p>##Part 4: Scrape all the pages!</p>
+<h2 id="part-4-scrape-all-the-pages">Part 4: Scrape all the pages!</h2>
 
 <p>We can scrape text out of the HTML tables on a page and now we need to scrape all five of the pages on Frank's site. As we discussed in part 2, we need to get the links out of the <code>&lt;ul&gt;</code> tag with the "pages" id and visit all those links. Let's start by initializing a list called <code>page_array</code> just below our <code>base_url</code> variable that will hold the links to each of the pages.</p>
 
@@ -283,7 +283,7 @@ def scrape_page(page):
 
 <p>You did it, structured data is yours to analayze!</p>
 
-<p>##Resources</p>
+<h2 id="resources">Resources</h2>
 
 <p>ScraperWiki is a handy service, but there are lots of tools and techniques for scraping. Some open source tools built by journalists include <a href="http://www.propublica.org/nerds/item/upton-a-web-scraping-framework">Upton</a> and <a href="https://github.com/tilgovi/haystax">Haystax</a>.</p>
 

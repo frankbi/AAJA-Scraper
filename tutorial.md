@@ -1,10 +1,10 @@
-#Webscraping 101
+# Webscraping 101
 
 A step-by-step guide for the [2013 AAJA National Convention](http://www.aaja.org/category/convention/new-york-2013/) session [Webscraping 101](http://sched.co/18F13ss), hosted by [Frank Bi](https://github.com/frankbi), [Dan Hill](https://github.com/danhillreports) and [Albert Sun](https://github.com/albertsun/). Follow this tutorial and we guarantee you will take home a spreadsheet of farmer's markets. Yay structured data!
 
 You can see the finished scraper code we'll be writing [here](https://github.com/frankbi/AAJA-Scraper/blob/master/scraper.py) or with extra comments [here](https://github.com/frankbi/AAJA-Scraper/blob/master/comments_scraper.py).
 
-##Part 1: Getting started with ScraperWiki
+## Part 1: Getting started with ScraperWiki
 
 There are lots of ways to scrape, but we'll use [ScraperWiki](https://scraperwiki.com/) - a service that lets you write and run scrapers and save data on its website - for this workshop.
 
@@ -14,7 +14,7 @@ Sign up for an account on the ScraperWiki [website](https://scraperwiki.com/) an
 
 ![Choose Python](images/tutorial/language.png)
 
-##Part 2: Always be inspectin'
+## Part 2: Always be inspectin'
 
 Before we start scraping, we need to study the HTML on our pages to determine our gampeplan for scraping the data. In particular, there are two big questions we need to answer:
 
@@ -25,7 +25,7 @@ Let's take a look at our website, Frank's list of [New York City Farmers' Market
 
 Now check out the links at the top of the page. You'll see the links are inside a `<ul>` tag with the id "pages". The links take you to pages with URL endings: /page1.html, /page2.html, /page3.html. This tells us we'll need to collect all those links from the "pages" `<ul>` and scrape the tables on each of those links. Plan! Now let's start scraping.
 
-##Part 3: Scraping your first page
+## Part 3: Scraping your first page
 
 We'll start by attacking the first part of our gameplan: scraping a single page by getting text out of `<td>` tags in the `<table>`.
 
@@ -89,7 +89,7 @@ for row in rows:
 
 The `cells` variable holds a list of all the `<td>` tags in the current row, and we index into `cells` to get the text we want by calling the BeautifulSoup function `get_text()`. Now we're scraping!
 
-##Part 4: Scrape all the pages!
+## Part 4: Scrape all the pages!
 
 We can scrape text out of the HTML tables on a page and now we need to scrape all five of the pages on Frank's site. As we discussed in part 2, we need to get the links out of the `<ul>` tag with the "pages" id and visit all those links. Let's start by initializing a list called `page_array` just below our `base_url` variable that will hold the links to each of the pages.
 
@@ -173,7 +173,7 @@ Running your scraper code now will save data to ScraperWiki. We can look at that
 
 You did it, structured data is yours to analayze!
 
-##Resources
+## Resources
 
 ScraperWiki is a handy service, but there are lots of tools and techniques for scraping. Some open source tools built by journalists include [Upton](http://www.propublica.org/nerds/item/upton-a-web-scraping-framework) and [Haystax](https://github.com/tilgovi/haystax).
 
