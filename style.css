@@ -1,16 +1,32 @@
-table, td {
+table {
 	border:1px black solid;
-	clear: both;
+	border-collapse:collapse;
+	border-spacing:2px;
+	border-color:gray;
+
+	clear:both;
+}
+
+th {
+	background-color:#b4c4d1;
+}
+
+tr {
+	display:table-row;
 }
 
 td {
 	padding:5px;
+	border:1px solid gray;
 }
 
 h1 {
 	float: left;
-	margin: 0px 50px 0px 0px;
+	margin:0px 50px 0px 0px;
 	padding:0px;
+	font-size:1.5em;
+	font-family:Arial;
+	font-style:italic;
 }
 
 a {
