@@ -182,6 +182,7 @@ ScraperWiki is a handy service, but there are lots of tools and techniques for s
 * ScraperWiki [first scraper tutorial](https://classic.scraperwiki.com/docs/python/python_intro_tutorial/) and [references](https://scraperwiki.com/help)
 * [Practical HTML & CSS for Journalists](https://dl.dropboxusercontent.com/u/13504438/aaja_coding_2013/index.html#/) from [Tom](https://twitter.com/giratikanon) and [Sisi](https://twitter.com/sisiwei)'s AAJA workshop
 * [Meet Your Web Inspector](http://ruby.bastardsbook.com/chapters/web-inspecting-html/) and [Intro to Web Scraping](http://ruby.bastardsbook.com/chapters/web-scraping/) from [Dan Nguyen](https://github.com/dannguyen)'s [Bastard's Book of Ruby](http://ruby.bastardsbook.com/)
+* [Scraping for Journalists](https://leanpub.com/scrapingforjournalists)
 * [IRE/NICAR listserv](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/)
 
 [Always be scrapin!](http://www.youtube.com/watch?v=hQGLNPJ9VCE)
