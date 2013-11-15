@@ -197,8 +197,7 @@ for row in rows:
             'city' : cells[3].get_text(),
             'state' : cells[4].get_text(),
             'zip_code' : cells[5].get_text(),
-            'lat' : cells[6].get_text(),
-            'lon' : cells[7].get_text()
+            'geo' : cells[6].get_text() + ',' + cells[7].get_text()
         }
         print data
 </code></pre>
