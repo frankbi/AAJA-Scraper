@@ -1,11 +1,11 @@
 #!/usr/bin/env python
- 
+
 # Import libraries
 import scraperwiki
 import requests
 from bs4 import BeautifulSoup
 
-# Set the home page to a variable 
+# Set the home page to a variable
 base_url = 'http://frankbi.com/aaja/farmermarkets/'
 
 # Initialize the list of pages to scrape
@@ -19,13 +19,13 @@ def get_pages():
 
     # Use Beautiful Soup to "soupify" the content of the home page
     soup = BeautifulSoup(html.content, "html.parser")
-    
+
     # Select the <ul id="pages"> and set it to a variable
     page_list = soup.findAll(id='pages')
 
     # Select all the <a> link tags inside the <ul> and set them to a variable
     pages = page_list[0].findAll('a')
-    
+
     # Loop each of the <a> link tags
     for page in pages:
 
@@ -52,7 +52,7 @@ def scrape_page(page):
     # Loop each of the <tr> tags
     for row in rows:
 
-        # Select all the data <td> tags 
+        # Select all the data <td> tags
         cells = row.findAll('td')
 
         # Create a data variable that contains for each of the eight attributes we scrape
@@ -63,8 +63,7 @@ def scrape_page(page):
             'city' : cells[3].get_text(),
             'state' : cells[4].get_text(),
             'zip_code' : cells[5].get_text(),
-            'lat' : cells[6].get_text(),
-            'lon' : cells[7].get_text()
+            'geo' : cells[6].get_text() + ',' + cells[7].get_text()
         }
 
         # Use ScraperWiki's save method to save the data in the data variable to ScraperWiki's database

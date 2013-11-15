@@ -1,19 +1,19 @@
 #!/usr/bin/env python
- 
+
 import scraperwiki
 import requests
 from bs4 import BeautifulSoup
- 
+
 base_url = 'http://frankbi.com/aaja/farmermarkets/'
 page_array = []
 
 def get_pages():
     html = requests.get(base_url+'page5.html')
     soup = BeautifulSoup(html.content, "html.parser")
-    
+
     page_list = soup.findAll(id='pages')
     pages = page_list[0].findAll('a')
-    
+
     for page in pages:
         page_array.append(page.get('href'))
 
@@ -36,8 +36,7 @@ def scrape_page(page):
             'city' : cells[3].get_text(),
             'state' : cells[4].get_text(),
             'zip_code' : cells[5].get_text(),
-            'lat' : cells[6].get_text(),
-            'lon' : cells[7].get_text()
+            'geo' : cells[6].get_text() + ',' + cells[7].get_text()
         }
 
         scraperwiki.sql.save(data.keys(), data)
