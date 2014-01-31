@@ -3,8 +3,7 @@ AAJA-Scraper
 
 Files for AAJA National Convention NYC 2013 session [Webscraping 101](http://sched.co/18F13ss)
 
-Thursday, August 22
-10:00 a.m. - 11:50 a.m.
+Tutorial [here](http://frankbi.github.io/AAJA-Scraper/tutorial.html).
 
 Session description
 -----------
