@@ -3,7 +3,7 @@ AAJA-Scraper
 
 Files for AAJA National Convention NYC 2013 session [Webscraping 101](http://sched.co/18F13ss), hosted by [Frank Bi](https://github.com/frankbi), [Dan Hill](https://github.com/danhillreports) and [Albert Sun](https://github.com/albertsun/).
 
-Tutorial [here](frankbi.github.io/AAJA-Scraper/tutorial.html).
+Tutorial [here](http://frankbi.github.io/AAJA-Scraper/tutorial.html).
 
 Session description
 -----------
